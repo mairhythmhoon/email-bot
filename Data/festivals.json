@@ -1,0 +1,277 @@
+[
+    {
+        "date": "2026-01-01",
+        "festival_name": "New Year's Day",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-01-03",
+        "festival_name": "Hazarat Ali's Birthday",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-01-14",
+        "festival_name": "Makar Sankranti",
+        "calendar": "merged"
+    },
+    {
+        "date": "2026-01-14",
+        "festival_name": "Pongal",
+        "calendar": "merged"
+    },
+    {
+        "date": "2026-01-23",
+        "festival_name": "Vasant Panchami",
+        "calendar": "merged"
+    },
+    {
+        "date": "2026-01-26",
+        "festival_name": "Republic Day",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-02-01",
+        "festival_name": "Guru Ravidas Jayanti",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-02-12",
+        "festival_name": "Maharishi Dayanand Saraswati Jayanti",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-02-15",
+        "festival_name": "Maha Shivaratri",
+        "calendar": "merged"
+    },
+    {
+        "date": "2026-02-19",
+        "festival_name": "Shivaji Jayanti",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-02-19",
+        "festival_name": "Ramadan Start",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-03-03",
+        "festival_name": "Holika Dahana",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-03-04",
+        "festival_name": "Holi",
+        "calendar": "merged"
+    },
+    {
+        "date": "2026-03-19",
+        "festival_name": "Ugadi",
+        "calendar": "merged"
+    },
+    {
+        "date": "2026-03-19",
+        "festival_name": "Gudi Padwa",
+        "calendar": "merged"
+    },
+    {
+        "date": "2026-03-20",
+        "festival_name": "Jamat Ul-Vida",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-03-21",
+        "festival_name": "Ramzan Id",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-03-26",
+        "festival_name": "Rama Navami",
+        "calendar": "merged"
+    },
+    {
+        "date": "2026-03-31",
+        "festival_name": "Mahavir Jayanti",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-04-03",
+        "festival_name": "Good Friday",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-04-05",
+        "festival_name": "Easter Day",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-04-14",
+        "festival_name": "Vaisakhi",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-04-14",
+        "festival_name": "Mesadi",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-04-14",
+        "festival_name": "Ambedkar Jayanti",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-04-15",
+        "festival_name": "Bahag Bihu",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-05-01",
+        "festival_name": "Buddha Purnima",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-05-09",
+        "festival_name": "Birthday of Rabindranath",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-05-27",
+        "festival_name": "Bakrid (tentative)",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-06-26",
+        "festival_name": "Muharram/Ashura (tentative)",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-07-16",
+        "festival_name": "Rath Yatra",
+        "calendar": "merged"
+    },
+    {
+        "date": "2026-08-15",
+        "festival_name": "Independence Day",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-08-26",
+        "festival_name": "Onam",
+        "calendar": "merged"
+    },
+    {
+        "date": "2026-08-26",
+        "festival_name": "Milad un-Nabi (tentative)",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-08-28",
+        "festival_name": "Raksha Bandhan",
+        "calendar": "merged"
+    },
+    {
+        "date": "2026-09-04",
+        "festival_name": "Janmashtami",
+        "calendar": "merged"
+    },
+    {
+        "date": "2026-09-04",
+        "festival_name": "Janmashtami (Smarta)",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-09-14",
+        "festival_name": "Ganesh Chaturthi",
+        "calendar": "merged"
+    },
+    {
+        "date": "2026-10-02",
+        "festival_name": "Mahatma Gandhi Jayanti",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-10-11",
+        "festival_name": "First Day of Sharad Navratri",
+        "calendar": "merged"
+    },
+    {
+        "date": "2026-10-17",
+        "festival_name": "First Day of Durga Puja Festivities",
+        "calendar": "merged"
+    },
+    {
+        "date": "2026-10-18",
+        "festival_name": "Maha Saptami",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-10-19",
+        "festival_name": "Maha Ashtami",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-10-20",
+        "festival_name": "Dussehra",
+        "calendar": "merged"
+    },
+    {
+        "date": "2026-10-26",
+        "festival_name": "Maharishi Valmiki Jayanti",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-10-29",
+        "festival_name": "Karaka Chaturthi",
+        "calendar": "merged"
+    },
+    {
+        "date": "2026-11-08",
+        "festival_name": "Diwali/Deepavali",
+        "calendar": "merged"
+    },
+    {
+        "date": "2026-11-08",
+        "festival_name": "Naraka Chaturdasi",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-11-09",
+        "festival_name": "Govardhan Puja",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-11-11",
+        "festival_name": "Bhai Duj",
+        "calendar": "merged"
+    },
+    {
+        "date": "2026-11-15",
+        "festival_name": "Chhat Puja (Pratihar Sashthi/Surya Sashthi)",
+        "calendar": "merged"
+    },
+    {
+        "date": "2026-11-24",
+        "festival_name": "Guru Tegh Bahadur's Martyrdom Day",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-11-24",
+        "festival_name": "Guru Nanak Jayanti",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-12-23",
+        "festival_name": "Hazarat Ali's Birthday",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-12-24",
+        "festival_name": "Christmas Eve",
+        "calendar": "Indian"
+    },
+    {
+        "date": "2026-12-25",
+        "festival_name": "Christmas",
+        "calendar": "Indian"
+    }
+]

@@ -1,0 +1,941 @@
+2026-04-14 15:52:11 | INFO     | service.py:32 | ===== EMAIL SYSTEM STARTED =====
+2026-04-14 15:52:11 | INFO     | service.py:43 | .env file is loaded
+2026-04-14 15:52:12 | INFO     | service.py:50 | Calendar.py Module's main_() is Running
+2026-04-14 15:52:13 | INFO     | service.py:151 | Todays Festivals is loaded in program.
+2026-04-14 15:52:16 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 15:52:19 | INFO     | Google_Sheet.py:53 | Data successfully written to data.json
+2026-04-14 15:52:19 | INFO     | task_2.py:139 | Fetching Data From Database.
+2026-04-14 15:52:22 | INFO     | task_2.py:110 | >> No new joiners since last run
+2026-04-14 15:52:25 | INFO     | task_2.py:154 | Nothing to add in Daily-Stats
+2026-04-14 15:52:25 | INFO     | task_2.py:171 | Adding to Days Login data and Email Send Data.
+2026-04-14 15:52:25 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 15:52:28 | INFO     | Google_Sheet.py:74 | Data appended successfully.
+2026-04-14 15:52:28 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 15:52:32 | INFO     | Google_Sheet.py:74 | Data appended successfully.
+2026-04-14 15:54:02 | INFO     | service.py:32 | ===== EMAIL SYSTEM STARTED =====
+2026-04-14 15:54:02 | INFO     | service.py:43 | .env file is loaded
+2026-04-14 15:54:05 | INFO     | service.py:50 | Calendar.py Module's main_() is Running
+2026-04-14 15:54:05 | INFO     | service.py:151 | Todays Festivals is loaded in program.
+2026-04-14 15:54:08 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 15:54:18 | INFO     | Google_Sheet.py:53 | Data successfully written to data.json
+2026-04-14 15:54:18 | INFO     | task_2.py:139 | Fetching Data From Database.
+2026-04-14 15:54:21 | INFO     | task_2.py:110 | >> No new joiners since last run
+2026-04-14 15:54:24 | INFO     | task_2.py:154 | Nothing to add in Daily-Stats
+2026-04-14 15:54:24 | INFO     | task_2.py:171 | Adding to Days Login data and Email Send Data.
+2026-04-14 15:54:25 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 15:54:26 | INFO     | Google_Sheet.py:74 | Data appended successfully.
+2026-04-14 15:54:26 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 15:54:28 | INFO     | Google_Sheet.py:74 | Data appended successfully.
+2026-04-14 15:56:44 | INFO     | service.py:32 | ===== EMAIL SYSTEM STARTED =====
+2026-04-14 15:56:44 | INFO     | service.py:43 | .env file is loaded
+2026-04-14 15:56:49 | INFO     | service.py:50 | Calendar.py Module's main_() is Running
+2026-04-14 15:56:49 | INFO     | service.py:151 | Todays Festivals is loaded in program.
+2026-04-14 15:56:52 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 15:56:56 | INFO     | Google_Sheet.py:53 | Data successfully written to data.json
+2026-04-14 15:56:56 | INFO     | task_2.py:140 | Fetching Data From Database.
+2026-04-14 15:56:59 | INFO     | task_2.py:111 | >> No new joiners since last run
+2026-04-14 15:57:02 | INFO     | task_2.py:155 | Nothing to add in Daily-Stats
+2026-04-14 15:57:02 | INFO     | task_2.py:172 | Adding to Days Login data and Email Send Data.
+2026-04-14 15:57:02 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 15:57:03 | INFO     | Google_Sheet.py:74 | Data appended successfully.
+2026-04-14 15:57:03 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 15:57:05 | INFO     | Google_Sheet.py:74 | Data appended successfully.
+2026-04-14 16:07:57 | INFO     | service.py:32 | ===== EMAIL SYSTEM STARTED =====
+2026-04-14 16:07:57 | INFO     | service.py:43 | .env file is loaded
+2026-04-14 16:07:59 | INFO     | service.py:50 | Calendar.py Module's main_() is Running
+2026-04-14 16:07:59 | INFO     | service.py:151 | Todays Festivals is loaded in program.
+2026-04-14 16:08:02 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 16:08:05 | INFO     | Google_Sheet.py:53 | Data successfully written to data.json
+2026-04-14 16:08:05 | INFO     | task_2.py:162 | Fetching Data From Database.
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Ridham Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Ridham Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Akshay Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Vraj Malaviya: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Ketan Kanzariya: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Bhavy Karavadia: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Akshay parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Parmar Manish: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Nitin Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Nitin Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Vyas Krut: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Jaydeep: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Saresa shreyansh: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Ridham Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Krutarth Jotangiya: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Patadiya jenish: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Harshad Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Ashokbhai Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Vivek Bhindora: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Suthar parth: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Dipali Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Manthan Jivani: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Akash Siddhpura: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Heet Dervadiya: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Bhagyashree Vaghela: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Ridham Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Man Makvana: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Ridham Degda: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Sarena Priyank Rajeshbhai: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Shekhada preyash: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Manan Vaghela: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Manthan Jivani: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Nitin Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Ridham Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Dipali Parmar H.: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Modhavaniya Keval: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | ERROR    | task_2.py:122 | Error for Shivam Pithadiya: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:08:08 | INFO     | task_2.py:133 | >> No new joiners since last run
+2026-04-14 16:08:11 | INFO     | task_2.py:177 | Nothing to add in Daily-Stats
+2026-04-14 16:08:11 | INFO     | task_2.py:194 | Adding to Days Login data and Email Send Data.
+2026-04-14 16:08:11 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 16:08:12 | INFO     | Google_Sheet.py:74 | Data appended successfully.
+2026-04-14 16:08:12 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 16:08:16 | INFO     | Google_Sheet.py:74 | Data appended successfully.
+2026-04-14 16:11:04 | INFO     | service.py:32 | ===== EMAIL SYSTEM STARTED =====
+2026-04-14 16:11:04 | INFO     | service.py:43 | .env file is loaded
+2026-04-14 16:11:10 | INFO     | service.py:50 | Calendar.py Module's main_() is Running
+2026-04-14 16:11:10 | INFO     | service.py:151 | Todays Festivals is loaded in program.
+2026-04-14 16:11:13 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 16:11:17 | INFO     | Google_Sheet.py:53 | Data successfully written to data.json
+2026-04-14 16:11:17 | INFO     | task_2.py:162 | Fetching Data From Database.
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Ridham Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Ridham Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Akshay Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Vraj Malaviya: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Ketan Kanzariya: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Bhavy Karavadia: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Akshay parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Parmar Manish: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Nitin Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Nitin Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Vyas Krut: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Jaydeep: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Saresa shreyansh: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Ridham Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Krutarth Jotangiya: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Patadiya jenish: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Harshad Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Ashokbhai Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Vivek Bhindora: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Suthar parth: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Dipali Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Manthan Jivani: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Akash Siddhpura: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Heet Dervadiya: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Bhagyashree Vaghela: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Ridham Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Man Makvana: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Ridham Degda: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Sarena Priyank Rajeshbhai: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Shekhada preyash: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Manan Vaghela: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Manthan Jivani: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Nitin Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Ridham Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Dipali Parmar H.: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Modhavaniya Keval: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | ERROR    | task_2.py:122 | Error for Shivam Pithadiya: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time <= last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:11:20 | INFO     | task_2.py:133 | >> No new joiners since last run
+2026-04-14 16:11:23 | INFO     | task_2.py:177 | Nothing to add in Daily-Stats
+2026-04-14 16:11:23 | INFO     | task_2.py:194 | Adding to Days Login data and Email Send Data.
+2026-04-14 16:11:23 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 16:11:29 | INFO     | Google_Sheet.py:74 | Data appended successfully.
+2026-04-14 16:11:29 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 16:11:31 | INFO     | Google_Sheet.py:74 | Data appended successfully.
+2026-04-14 16:13:12 | INFO     | service.py:32 | ===== EMAIL SYSTEM STARTED =====
+2026-04-14 16:13:12 | INFO     | service.py:43 | .env file is loaded
+2026-04-14 16:13:16 | INFO     | service.py:50 | Calendar.py Module's main_() is Running
+2026-04-14 16:13:16 | INFO     | service.py:151 | Todays Festivals is loaded in program.
+2026-04-14 16:13:19 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 16:13:23 | INFO     | Google_Sheet.py:53 | Data successfully written to data.json
+2026-04-14 16:13:23 | INFO     | task_2.py:162 | Fetching Data From Database.
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Ridham Parmar: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Ridham Parmar: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Akshay Parmar: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Vraj Malaviya: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Ketan Kanzariya: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Bhavy Karavadia: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Akshay parmar: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Parmar Manish: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Nitin Parmar: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Nitin Parmar: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Vyas Krut: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Jaydeep: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Saresa shreyansh: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Ridham Parmar: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Krutarth Jotangiya: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Patadiya jenish: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Harshad Parmar: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Ashokbhai Parmar: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Vivek Bhindora: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Suthar parth: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Dipali Parmar: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Manthan Jivani: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Akash Siddhpura: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Heet Dervadiya: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Bhagyashree Vaghela: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Ridham Parmar: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Man Makvana: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Ridham Degda: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Sarena Priyank Rajeshbhai: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Shekhada preyash: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Manan Vaghela: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Manthan Jivani: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Nitin Parmar: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Ridham Parmar: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Dipali Parmar H.: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Modhavaniya Keval: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | ERROR    | task_2.py:122 | Error for Shivam Pithadiya: '>' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/kali/email-bot/task_2.py", line 85, in main
+    if service.TEMPLATE_JOIN and join_time > last_run_time:
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '>' not supported between instances of 'str' and 'datetime.datetime'
+2026-04-14 16:13:26 | INFO     | task_2.py:133 | >> No new joiners since last run
+2026-04-14 16:13:29 | INFO     | task_2.py:177 | Nothing to add in Daily-Stats
+2026-04-14 16:13:29 | INFO     | task_2.py:194 | Adding to Days Login data and Email Send Data.
+2026-04-14 16:13:29 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 16:13:31 | INFO     | Google_Sheet.py:74 | Data appended successfully.
+2026-04-14 16:13:31 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 16:13:33 | INFO     | Google_Sheet.py:74 | Data appended successfully.
+2026-04-14 16:17:30 | INFO     | service.py:32 | ===== EMAIL SYSTEM STARTED =====
+2026-04-14 16:17:30 | INFO     | service.py:43 | .env file is loaded
+2026-04-14 16:17:34 | INFO     | service.py:50 | Calendar.py Module's main_() is Running
+2026-04-14 16:17:34 | INFO     | service.py:151 | Todays Festivals is loaded in program.
+2026-04-14 16:17:37 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 16:17:41 | INFO     | Google_Sheet.py:53 | Data successfully written to data.json
+2026-04-14 16:17:41 | INFO     | task_2.py:160 | Fetching Data From Database.
+2026-04-14 16:19:38 | INFO     | service.py:32 | ===== EMAIL SYSTEM STARTED =====
+2026-04-14 16:19:38 | INFO     | service.py:43 | .env file is loaded
+2026-04-14 16:19:42 | INFO     | service.py:50 | Calendar.py Module's main_() is Running
+2026-04-14 16:19:42 | INFO     | service.py:151 | Todays Festivals is loaded in program.
+2026-04-14 16:19:45 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 16:19:49 | INFO     | Google_Sheet.py:53 | Data successfully written to data.json
+2026-04-14 16:19:49 | INFO     | task_2.py:160 | Fetching Data From Database.
+2026-04-14 16:24:41 | INFO     | service.py:32 | ===== EMAIL SYSTEM STARTED =====
+2026-04-14 16:24:41 | INFO     | service.py:43 | .env file is loaded
+2026-04-14 16:24:45 | INFO     | service.py:50 | Calendar.py Module's main_() is Running
+2026-04-14 16:24:45 | INFO     | service.py:151 | Todays Festivals is loaded in program.
+2026-04-14 16:24:49 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 16:24:53 | INFO     | Google_Sheet.py:53 | Data successfully written to data.json
+2026-04-14 16:24:53 | INFO     | task_2.py:162 | Fetching Data From Database.
+2026-04-14 16:27:36 | INFO     | service.py:32 | ===== EMAIL SYSTEM STARTED =====
+2026-04-14 16:27:36 | INFO     | service.py:43 | .env file is loaded
+2026-04-14 16:27:39 | INFO     | service.py:50 | Calendar.py Module's main_() is Running
+2026-04-14 16:27:39 | INFO     | service.py:151 | Todays Festivals is loaded in program.
+2026-04-14 16:27:42 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 16:27:46 | INFO     | Google_Sheet.py:53 | Data successfully written to data.json
+2026-04-14 16:27:46 | INFO     | task_2.py:162 | Fetching Data From Database.
+2026-04-14 16:33:48 | INFO     | service.py:32 | ===== EMAIL SYSTEM STARTED =====
+2026-04-14 16:33:48 | INFO     | service.py:43 | .env file is loaded
+2026-04-14 16:33:51 | INFO     | service.py:50 | Calendar.py Module's main_() is Running
+2026-04-14 16:33:51 | INFO     | service.py:151 | Todays Festivals is loaded in program.
+2026-04-14 16:33:55 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 16:33:56 | INFO     | Google_Sheet.py:53 | Data successfully written to data.json
+2026-04-14 16:33:56 | INFO     | task_2.py:162 | Fetching Data From Database.
+2026-04-14 16:42:31 | INFO     | service.py:32 | ===== EMAIL SYSTEM STARTED =====
+2026-04-14 16:42:31 | INFO     | service.py:43 | .env file is loaded
+2026-04-14 16:42:34 | INFO     | service.py:50 | Calendar.py Module's main_() is Running
+2026-04-14 16:42:34 | INFO     | service.py:151 | Todays Festivals is loaded in program.
+2026-04-14 16:42:37 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 16:42:42 | INFO     | Google_Sheet.py:53 | Data successfully written to data.json
+2026-04-14 16:42:42 | INFO     | task_2.py:162 | Fetching Data From Database.
+2026-04-14 16:46:53 | INFO     | service.py:32 | ===== EMAIL SYSTEM STARTED =====
+2026-04-14 16:46:53 | INFO     | service.py:43 | .env file is loaded
+2026-04-14 16:46:53 | ERROR    | service.py:53 | Exception in Calender.py
+Traceback (most recent call last):
+  File "/home/kali/email-bot/venv/lib/python3.13/site-packages/urllib3/connection.py", line 204, in _new_conn
+    sock = connection.create_connection(
+        (self._dns_host, self.port),
+    ...<2 lines>...
+        socket_options=self.socket_options,
+    )
+  File "/home/kali/email-bot/venv/lib/python3.13/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/lib/python3.13/socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/email-bot/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+        conn,
+    ...<10 lines>...
+        **response_kw,
+    )
+  File "/home/kali/email-bot/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "/home/kali/email-bot/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/kali/email-bot/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+    ~~~~~~~~~~~~^^
+  File "/home/kali/email-bot/venv/lib/python3.13/site-packages/urllib3/connection.py", line 759, in connect
+    self.sock = sock = self._new_conn()
+                       ~~~~~~~~~~~~~~^^
+  File "/home/kali/email-bot/venv/lib/python3.13/site-packages/urllib3/connection.py", line 211, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='calendar.google.com', port=443): Failed to resolve 'calendar.google.com' ([Errno -3] Temporary failure in name resolution)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/kali/email-bot/venv/lib/python3.13/site-packages/requests/adapters.py", line 645, in send
+    resp = conn.urlopen(
+        method=request.method,
+    ...<9 lines>...
+        chunked=chunked,
+    )
+  File "/home/kali/email-bot/venv/lib/python3.13/site-packages/urllib3/connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+        method, url, error=new_e, _pool=self, _stacktrace=sys.exc_info()[2]
+    )
+  File "/home/kali/email-bot/venv/lib/python3.13/site-packages/urllib3/util/retry.py", line 535, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='calendar.google.com', port=443): Max retries exceeded with url: /calendar/ical/en.hinduism%23holiday%40group.v.calendar.google.com/public/basic.ics (Caused by NameResolutionError("HTTPSConnection(host='calendar.google.com', port=443): Failed to resolve 'calendar.google.com' ([Errno -3] Temporary failure in name resolution)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/kali/email-bot/service.py", line 49, in <module>
+    main_()
+    ~~~~~^^
+  File "/home/kali/email-bot/Module/Calendar.py", line 47, in main_
+    response = requests.get(url, timeout=30)
+  File "/home/kali/email-bot/venv/lib/python3.13/site-packages/requests/api.py", line 73, in get
+    return request("get", url, params=params, **kwargs)
+  File "/home/kali/email-bot/venv/lib/python3.13/site-packages/requests/api.py", line 59, in request
+    return session.request(method=method, url=url, **kwargs)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/kali/email-bot/venv/lib/python3.13/site-packages/requests/sessions.py", line 592, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/home/kali/email-bot/venv/lib/python3.13/site-packages/requests/sessions.py", line 706, in send
+    r = adapter.send(request, **kwargs)
+  File "/home/kali/email-bot/venv/lib/python3.13/site-packages/requests/adapters.py", line 678, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='calendar.google.com', port=443): Max retries exceeded with url: /calendar/ical/en.hinduism%23holiday%40group.v.calendar.google.com/public/basic.ics (Caused by NameResolutionError("HTTPSConnection(host='calendar.google.com', port=443): Failed to resolve 'calendar.google.com' ([Errno -3] Temporary failure in name resolution)"))
+2026-04-14 16:50:25 | INFO     | service.py:32 | ===== EMAIL SYSTEM STARTED =====
+2026-04-14 16:50:25 | INFO     | service.py:43 | .env file is loaded
+2026-04-14 16:50:28 | INFO     | service.py:50 | Calendar.py Module's main_() is Running
+2026-04-14 16:50:28 | INFO     | service.py:151 | Todays Festivals is loaded in program.
+2026-04-14 16:50:34 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 16:50:36 | INFO     | Google_Sheet.py:74 | Data appended successfully.
+2026-04-14 16:50:36 | INFO     | task_2.py:188 | [['2026-04-14', 1, 1, 0]]
+2026-04-14 16:50:36 | INFO     | task_2.py:194 | Adding to Days Login data and Email Send Data.
+2026-04-14 16:50:36 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 16:53:36 | INFO     | service.py:32 | ===== EMAIL SYSTEM STARTED =====
+2026-04-14 16:53:36 | INFO     | service.py:43 | .env file is loaded
+2026-04-14 16:53:41 | INFO     | service.py:50 | Calendar.py Module's main_() is Running
+2026-04-14 16:53:41 | INFO     | service.py:151 | Todays Festivals is loaded in program.
+2026-04-14 17:00:58 | INFO     | service.py:32 | ===== EMAIL SYSTEM STARTED =====
+2026-04-14 17:00:58 | INFO     | service.py:43 | .env file is loaded
+2026-04-14 17:01:02 | INFO     | service.py:50 | Calendar.py Module's main_() is Running
+2026-04-14 17:01:02 | INFO     | service.py:151 | Todays Festivals is loaded in program.
+2026-04-14 17:01:07 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 17:01:11 | INFO     | Google_Sheet.py:74 | Data appended successfully.
+2026-04-14 17:01:11 | INFO     | task_2.py:188 | [['2026-04-14', 1, 1, 0]]
+2026-04-14 17:01:11 | INFO     | task_2.py:194 | Adding to Days Login data and Email Send Data.
+2026-04-14 17:01:11 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 17:49:36 | INFO     | service.py:32 | ===== EMAIL SYSTEM STARTED =====
+2026-04-14 17:49:36 | INFO     | service.py:43 | .env file is loaded
+2026-04-14 17:49:37 | INFO     | service.py:50 | Calendar.py Module's main_() is Running
+2026-04-14 17:49:37 | INFO     | service.py:151 | Todays Festivals is loaded in program.
+2026-04-14 17:50:44 | INFO     | service.py:32 | ===== EMAIL SYSTEM STARTED =====
+2026-04-14 17:50:44 | INFO     | service.py:43 | .env file is loaded
+2026-04-14 17:50:46 | INFO     | service.py:50 | Calendar.py Module's main_() is Running
+2026-04-14 17:50:46 | INFO     | service.py:151 | Todays Festivals is loaded in program.
+2026-04-14 17:50:49 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 17:50:50 | INFO     | Google_Sheet.py:53 | Data successfully written to data.json
+2026-04-14 17:50:50 | INFO     | task02.py:74 | Fetching Data From Database.
+2026-04-14 17:50:53 | INFO     | task02.py:51 | >> No new joiners in last 24 hrs
+2026-04-14 17:50:56 | INFO     | task02.py:87 | Nothing to add in Daily-Stats
+2026-04-14 17:50:56 | INFO     | task02.py:98 | Adding to Days Login data and Email Send Data.
+2026-04-14 17:50:57 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 17:50:58 | INFO     | Google_Sheet.py:74 | Data appended successfully.
+2026-04-14 17:50:58 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 17:50:59 | INFO     | Google_Sheet.py:74 | Data appended successfully.
+2026-04-14 17:51:59 | INFO     | service.py:32 | ===== EMAIL SYSTEM STARTED =====
+2026-04-14 17:51:59 | INFO     | service.py:43 | .env file is loaded
+2026-04-14 17:52:01 | INFO     | service.py:50 | Calendar.py Module's main_() is Running
+2026-04-14 17:52:01 | INFO     | service.py:151 | Todays Festivals is loaded in program.
+2026-04-14 17:54:30 | INFO     | service.py:32 | ===== EMAIL SYSTEM STARTED =====
+2026-04-14 17:54:30 | INFO     | service.py:43 | .env file is loaded
+2026-04-14 17:54:32 | INFO     | service.py:50 | Calendar.py Module's main_() is Running
+2026-04-14 17:54:32 | INFO     | service.py:151 | Todays Festivals is loaded in program.
+2026-04-14 17:54:32 | INFO     | task_2.py:114 | >> No new joiners since last run
+2026-04-14 17:54:35 | INFO     | task_2.py:158 | Nothing to add in Daily-Stats
+2026-04-14 17:54:35 | INFO     | task_2.py:175 | Adding to Days Login data and Email Send Data.
+2026-04-14 17:54:35 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 17:54:36 | INFO     | Google_Sheet.py:74 | Data appended successfully.
+2026-04-14 17:54:36 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 17:54:38 | INFO     | Google_Sheet.py:74 | Data appended successfully.
+2026-04-14 17:56:46 | INFO     | service.py:32 | ===== EMAIL SYSTEM STARTED =====
+2026-04-14 17:56:46 | INFO     | service.py:43 | .env file is loaded
+2026-04-14 17:56:48 | INFO     | service.py:50 | Calendar.py Module's main_() is Running
+2026-04-14 17:56:48 | INFO     | service.py:151 | Todays Festivals is loaded in program.
+2026-04-14 17:56:51 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 17:56:52 | INFO     | Google_Sheet.py:53 | Data successfully written to data.json
+2026-04-14 17:56:52 | INFO     | task_2.py:143 | Fetching Data From Database.
+2026-04-14 17:56:55 | INFO     | task_2.py:114 | >> No new joiners since last run
+2026-04-14 17:56:58 | INFO     | task_2.py:158 | Nothing to add in Daily-Stats
+2026-04-14 17:56:58 | INFO     | task_2.py:175 | Adding to Days Login data and Email Send Data.
+2026-04-14 17:56:58 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 17:57:00 | INFO     | Google_Sheet.py:74 | Data appended successfully.
+2026-04-14 17:57:00 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-14 17:57:01 | INFO     | Google_Sheet.py:74 | Data appended successfully.

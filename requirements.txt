@@ -1,0 +1,12 @@
+# this is for .env file.
+python-dotenv
+
+# this is for colorful font in terminal.
+colorama
+
+# this is for resolve domain from email address. 
+dnspython
+
+# THis is for google sheet services.
+google-auth
+google-api-python-client

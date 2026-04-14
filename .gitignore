@@ -1,0 +1,12 @@
+# Virtual Environment
+venv/
+
+# Secure folder (sensitive data)
+Secure/
+
+# Python compiled files (global - sab folders pe apply hoga)
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
