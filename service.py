@@ -359,8 +359,8 @@ def main():
                         COUNTS["total"]+=1
                 
             except Exception as e:
-                logger.exception(f"Error for {person["Name"]}: {e}")
-                error(f"Error for {person["Name"]}: {e}")    
+                logger.exception(f"Error for {person['Name']}: {e}")
+                error(f"Error for {person['Name']}: {e}")    
                 
         if not birthday_sent and (not festivals_list) and not joining_sent:
             import time 
