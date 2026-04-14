@@ -59,7 +59,7 @@ def main():
                         service.COUNTS["total"]+=1
                     
             except Exception as e:
-                service.logger.exception(f"Error for {person["Name"]}: {e}")
+                service.logger.exception(f"Error for {person['Name']}: {e}")
                 service.error(f"Error for {person["Name"]}: {e}")    
         if not brithday_sent and (not service.festivals_list):
             service.logger.info(f">> No Birthdays today\t>> No festivals today")
