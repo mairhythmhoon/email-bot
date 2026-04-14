@@ -64,10 +64,10 @@ def festival_filter(fest_data):
 # this is for only dry run
 if __name__ == "__main__":
 
-    with open(f"/home/kali/email-bot/Data/data.json", "r", encoding="utf-8") as f:
+    with open(f"Data/data.json", "r", encoding="utf-8") as f:
         bday_data = json.load(f)
 
-    with open(f"/home/kali/email-bot/Data/festivals.json", "r", encoding="utf-8") as f:
+    with open(f"Data/festivals.json", "r", encoding="utf-8") as f:
         fest_data = json.load(f)
 
     a = birthday_filter(bday_data)

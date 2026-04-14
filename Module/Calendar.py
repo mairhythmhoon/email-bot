@@ -14,7 +14,7 @@ def main_():
         "Indian": f"https://calendar.google.com/calendar/ical/en-in.indian%23holiday%40group.v.calendar.google.com/public/basic.ics"
     }
 
-    OUTPUT_FILE = f"/home/kali/email-bot/Data/festivals.json"
+    OUTPUT_FILE = f"Data/festivals.json"
     if not OUTPUT_FILE:
         logger.exception("festival.json is not found.")
         exit(0)

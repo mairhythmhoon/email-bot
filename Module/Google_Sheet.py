@@ -6,7 +6,7 @@ from googleapiclient.errors import HttpError
 logger = logging.getLogger(__name__)
 
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
-SERVICE_ACCOUNT_FILE = f"/home/kali/email-bot/Secure/credentials.json"
+SERVICE_ACCOUNT_FILE = f"Secure/credentials.json"
 SPREADSHEET_ID = "1l_Nl_Q3sZnOlkCN4-rKRTUA865dJEN9kAU6xqOfWI7s"
 
 
@@ -45,7 +45,7 @@ def get_data_from_google_sheet(range_):
                 obj[key] = row[i].strip() if i < len(row) else ""
             json_list.append(obj)
 
-        output_path = f"/home/kali/email-bot/Data/data.json"
+        output_path = f"Data/data.json"
 
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump(json_list, f, indent=4, ensure_ascii=False)
