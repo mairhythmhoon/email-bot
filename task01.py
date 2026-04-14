@@ -60,7 +60,7 @@ def main():
                     
             except Exception as e:
                 service.logger.exception(f"Error for {person['Name']}: {e}")
-                service.error(f"Error for {person["Name"]}: {e}")    
+                service.error(f"Error for {person['Name']}: {e}")    
         if not brithday_sent and (not service.festivals_list):
             service.logger.info(f">> No Birthdays today\t>> No festivals today")
             service.error(f">> No Birthdays today\n>> No festivals today")
