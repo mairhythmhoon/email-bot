@@ -120,6 +120,7 @@ if __name__ == "__main__":
                 service.error("\n>> Module Level Error in 'Google_Sheet.py'...")
         try:
             service.logger.info("Adding to Days Login data and Email Send Data.")
+            service.log_login_attempt()
             service.append_to_sheet("Sheet-02", service.LOGIN_SHEET_DATA)
             service.append_to_sheet("Sheet-03", service.EMAIL_SHEET_DATA)
         except Exception as e:
