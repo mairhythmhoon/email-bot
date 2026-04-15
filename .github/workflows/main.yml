@@ -13,6 +13,12 @@ jobs:
       contents: write
 
     steps:
+      - name: Show trigger info
+        run: |
+          echo "Triggered by: ${{ github.event_name }}"
+          echo "UTC Time: $(date -u)"
+          echo "IST Time: $(TZ=Asia/Kolkata date)"
+    
       - name: Checkout code
         uses: actions/checkout@v4
 
