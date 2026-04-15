@@ -1,11 +1,9 @@
 name: Run App
 
 on:
-  push:
-    branches:
-      - main
   schedule:
     - cron: "30 2 * * *"   # 8:00 AM IST
+  workflow_dispatch: 	   # Allow manual run from GitHub UI
 
 jobs:
   run:
@@ -18,16 +16,19 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      # ✅ ADD THIS
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
           python-version: "3.10"
 
-      # ✅ ADD THIS (if you use any libraries)
       - name: Install dependencies
         run: |
           pip install -r requirements.txt || echo "No requirements file"
+
+      - name: Set timezone to IST
+        run: |
+          sudo timedatectl set-timezone Asia/Kolkata
+          date   # (optional: shows current IST time in logs)
 
       - name: Set up Git
         run: |
@@ -38,12 +39,10 @@ jobs:
         run: mkdir -p Secure
 
       - name: Create .env file
-        run: |
-          echo "${{ secrets.ENV_FILE }}" > Secure/.env
+        run: echo "${{ secrets.ENV_FILE }}" > Secure/.env
 
-      - name: Create credentials.json safely
-        run: |
-          printf '%s' '${{ secrets.CREDENTIALS_JSON }}' > Secure/credentials.json
+      - name: Create credentials.json
+        run: printf '%s' '${{ secrets.CREDENTIALS_JSON }}' > Secure/credentials.json
 
       - name: Run Python task
         run: python task01.py
