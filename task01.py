@@ -90,9 +90,9 @@ if __name__ == "__main__":
     service.info ("███████╗██║ ╚═╝ ██║██║  ██║██║███████╗    ███████╗██║ ╚████║╚██████╔╝██║██║ ╚████║███████╗")
     service.info ("╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝╚═╝╚══════╝    ╚══════╝╚═╝  ╚═══╝ ╚═════╝ ╚═╝╚═╝  ╚═══╝╚══════╝")
     print("")
-    import time
+    #import time
     service.info("\n>> LEVEL 01 : Fetching Data From Database ")
-    time.sleep(3)
+    #time.sleep(3)
     try:
         service.get_data_from_google_sheet('Sheet-01')
         service.logger.info("Fetching Data From Database.")
@@ -100,14 +100,14 @@ if __name__ == "__main__":
         service.logger.exception("Module Level Error in 'Google_Sheet.py'.")
         service.error("\n>> Module Level Error in 'Google_Sheet.py'..." + e)
     service.info("\n>> LEVEL 01 IS DONE DATA IS GETING FROM DATABASE.\n")
-    time.sleep(3)
+    #time.sleep(3)
     
     service.info("\n>> LEVEL 02 : Running Algorithm For Main Task.")
     try:
         main()
     finally:
         if service.COUNTS["birthday"]==0 and service.COUNTS["failed"]==0 and service.COUNTS["festival"]==0 and  service.COUNTS["total"]==0:
-            time.sleep(3)
+            #time.sleep(3)
             service.logger.info("Nothing to add in Daily-Stats")
             service.info("\n>> Nothing to add in Daily-Stats")
         else:
