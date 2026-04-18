@@ -1025,3 +1025,19 @@ requests.exceptions.ConnectionError: HTTPSConnectionPool(host='calendar.google.c
 2026-04-17 10:45:30 | INFO     | Google_Sheet.py:74 | Data appended successfully.
 2026-04-17 10:45:30 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
 2026-04-17 10:45:31 | INFO     | Google_Sheet.py:74 | Data appended successfully.
+2026-04-18 10:25:50 | INFO     | service.py:32 | ===== EMAIL SYSTEM STARTED =====
+2026-04-18 10:25:50 | INFO     | service.py:43 | .env file is loaded
+2026-04-18 10:25:50 | INFO     | service.py:50 | Calendar.py Module's main_() is Running
+2026-04-18 10:25:50 | INFO     | service.py:151 | Todays Festivals is loaded in program.
+2026-04-18 10:25:50 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-18 10:25:51 | INFO     | Google_Sheet.py:53 | Data successfully written to data.json
+2026-04-18 10:25:51 | INFO     | task01.py:98 | Fetching Data From Database.
+2026-04-18 10:25:52 | INFO     | task01.py:65 | >> No Birthdays today	>> No festivals today
+2026-04-18 10:25:52 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-18 10:25:53 | INFO     | Google_Sheet.py:74 | Data appended successfully.
+2026-04-18 10:25:53 | INFO     | task01.py:117 | [['2026-04-18', 1, 1, 0, 0]]
+2026-04-18 10:25:53 | INFO     | task01.py:122 | Adding to Days Login data and Email Send Data.
+2026-04-18 10:25:53 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-18 10:25:54 | INFO     | Google_Sheet.py:74 | Data appended successfully.
+2026-04-18 10:25:54 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-04-18 10:25:54 | INFO     | Google_Sheet.py:74 | Data appended successfully.
