@@ -145,7 +145,7 @@ if __name__ == "__main__":
             service.info("\n>> Nothing to add in Daily-Stats")
         else:
             DAY_WISE_SUMMARY = [[
-                datetime.now().strftime("%Y-%m-%d"),
+                datetime.now().strftime("%d-%m-%Y %H:%M:%S"),
                 service.COUNTS["total"],
                 service.COUNTS["joining"],
                 service.COUNTS["failed"]
