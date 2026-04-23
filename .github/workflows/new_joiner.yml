@@ -1,0 +1,60 @@
+name: Task-02
+
+on:
+  schedule:
+    - cron: "30 0,4,8,12 * * *"   # 06:00, 10:00, 14:00, 18:00 IST
+  workflow_dispatch:
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Show trigger info
+        run: |
+          echo "Triggered by: ${{ github.event_name }}"
+          echo "UTC Time: $(date -u)"
+          echo "IST Time: $(TZ=Asia/Kolkata date)"
+
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt || echo "No requirements file"
+
+      - name: Set timezone to IST
+        run: |
+          sudo timedatectl set-timezone Asia/Kolkata
+          date
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "mairhythmhoon"
+          git config --global user.email "rhythm.work.id@proton.me"
+
+      - name: Create Secure folder
+        run: mkdir -p Secure
+
+      - name: Create .env file
+        run: echo "${{ secrets.ENV_FILE }}" > Secure/.env
+
+      - name: Create credentials.json
+        run: printf '%s' '${{ secrets.CREDENTIALS_JSON }}' > Secure/credentials.json
+
+      - name: Run Python task
+        run: python task_2.py
+
+      - name: Commit & Push changes
+        run: |
+          git add .
+          git commit -m "Auto update: $(date)" || echo "No changes to commit"
+          git push

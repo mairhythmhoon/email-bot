@@ -1,4 +1,4 @@
-name: Run App
+name: Task-01
 
 on:
   schedule:

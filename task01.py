@@ -102,7 +102,7 @@ if __name__ == "__main__":
     service.info("\n>> LEVEL 01 IS DONE DATA IS GETING FROM DATABASE.\n")
     #time.sleep(3)
     
-    service.info("\n>> LEVEL 02 : Running Algorithm For Main Task.")
+    service.info("\n>> LEVEL 02 : Running Algorithm For Festival and Brithday Mail Sending Task.")
     try:
         main()
     finally:
