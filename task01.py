@@ -111,7 +111,7 @@ if __name__ == "__main__":
             service.logger.info("Nothing to add in Daily-Stats")
             service.info("\n>> Nothing to add in Daily-Stats")
         else:
-            DAY_WISE_SUMMARY =[[datetime.now().strftime("%Y-%m-%d"),service.COUNTS["total"],service.COUNTS["birthday"],service.COUNTS["festival"],service.COUNTS["failed"]]]
+            DAY_WISE_SUMMARY =[[datetime.now().strftime("%d-%m-%Y %H:%M:%S"),service.COUNTS["total"],service.COUNTS["birthday"],service.COUNTS["festival"],service.COUNTS["failed"]]]
             try:
                 service.append_to_sheet("Task_01",DAY_WISE_SUMMARY)
                 service.logger.info(DAY_WISE_SUMMARY)
