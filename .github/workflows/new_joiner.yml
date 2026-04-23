@@ -51,7 +51,7 @@ jobs:
         run: printf '%s' '${{ secrets.CREDENTIALS_JSON }}' > Secure/credentials.json
 
       - name: Run Python task
-        run: python task_2.py
+        run: python task02.py
 
       - name: Commit & Push changes
         run: |
