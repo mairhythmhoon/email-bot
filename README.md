@@ -358,9 +358,9 @@ Contributions are welcome! Here's how to help:
 
 ### Get in Touch
 - **GitHub:** [@mairhythmhoon](https://github.com/mairhythmhoon)
-- **Email:** [Contact](mailto:mairhythmhoon@gmail.com)
+- **Email:** [rhythm.work.id@proton.me](mailto:rhythm.work.id@proton.me)
 - **Instagram:** [@mairhythmhoon](https://instagram.com/mairhythmhoon)
-- **LinkedIn:** [Ridham Parmar](https://linkedin.com/in/mairhythmhoon)
+- **LinkedIn:** [@mairhythmhoon](https://linkedin.com/in/mairhythmhoon)
 
 ---
 
@@ -368,27 +368,10 @@ Contributions are welcome! Here's how to help:
 
 This project is open source and available under the [MIT License](LICENSE).
 
----
-
-## 🎯 Roadmap
-
-- [ ] 📱 SMS notifications support
-- [ ] 📲 Telegram bot integration
-- [ ] 🌐 Web dashboard for management
-- [ ] 🔄 Improved sync mechanism
-- [ ] 🧪 Unit test coverage
-- [ ] 🐳 Docker containerization
-- [ ] ☁️ Cloud deployment guides
-- [ ] 📊 Advanced analytics dashboard
-
----
-
 ## 💡 Future Enhancements
 
-- Real-time email status tracking
 - Advanced scheduling with cron expressions
 - Multi-language template support
-- Email delivery analytics
 - User preference management
 - Automated email list segmentation
 
