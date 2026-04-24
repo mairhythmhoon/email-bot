@@ -294,29 +294,5 @@
         "Responder Email Address": "shivpithadiya.sp@gmail.com",
         "Birthdate": "21/07/2008",
         "Gender": "Male"
-    },
-    {
-        "Timestamp": "17/04/2026 11:49:02",
-        "Name": "Fhaaaa",
-        "Email address": "Xyz@hello.com",
-        "Responder Email Address": "parmarridham952009@gmail.com",
-        "Birthdate": "18/04/2020",
-        "Gender": "Other"
-    },
-    {
-        "Timestamp": "23/04/2026 18:29:15",
-        "Name": "Test_01",
-        "Email address": "rhythm.work.id@proton.me",
-        "Responder Email Address": "parmarridham952009@gmail.com",
-        "Birthdate": "09/05/2009",
-        "Gender": "Male"
-    },
-    {
-        "Timestamp": "23/04/2026 18:31:24",
-        "Name": "Test_02",
-        "Email address": "rhythm.work.id@proton.me",
-        "Responder Email Address": "parmarridham952009@gmail.com",
-        "Birthdate": "09/05/2009",
-        "Gender": "Male"
     }
 ]
