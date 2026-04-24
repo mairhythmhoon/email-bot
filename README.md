@@ -383,7 +383,7 @@ This project is open source and available under the [MIT License](LICENSE).<br><
 
 ### ⭐ If you found this project helpful, please consider giving it a star!
 
-**Built with ❤️ by [Ridham Parmar](https://github.com/mairhythmhoon)**
+**Built with ❤️ by [mairhythmhoon](https://github.com/mairhythmhoon)**
 
 ---
 
