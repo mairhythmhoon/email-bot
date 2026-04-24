@@ -1,10 +1,10 @@
 # Virtual Environment
 venv/
 
-# Secure folder (sensitive data)
+# Secure folder 
 Secure/
 
-# Python compiled files (global - sab folders pe apply hoga)
+# Python compiled files 
 __pycache__/
 *.pyc
 
