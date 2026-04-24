@@ -99,6 +99,7 @@ email-bot/
 │   └── email_bot.log            # Application logs
 │
 └── 📁 Secure/                   # Configuration (⚠️ Not in repo)
+    ├── credentials.json 
     └── .env                     # Environment variables
 ```
 
