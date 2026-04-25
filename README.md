@@ -77,8 +77,8 @@ email-bot/
 ├── 🇵🇾 task01.py                 # Daily automation task (Birthdays & Festivals)
 ├── 🇵🇾 task02.py                 # Additional email tasks
 ├── 🇵🇾 service.py                # Core service module (Email, Auth, Utils)
-├── 🇵🇾 requirements.txt           # Python dependencies
-├── 🇵🇾 .gitignore               # Git ignore rules
+├── 🇵🇾 requirements.txt          # Python dependencies
+├── 🇵🇾 .gitignore                # Git ignore rules
 │
 ├── 📁 Module/                   # Utility modules
 │   ├── setup_logger.py          # Logging configuration
@@ -99,7 +99,7 @@ email-bot/
 │   └── email_bot.log            # Application logs
 │
 └── 📁 Secure/                   # Configuration (⚠️ Not in repo)
-    ├── credentials.json 
+    ├── credentials.json         # Google Sheet credential file
     └── .env                     # Environment variables
 ```
 
