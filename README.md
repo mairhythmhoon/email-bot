@@ -74,11 +74,11 @@
 
 ```
 email-bot/
-├── 🇵🇾 task01.py                 # Daily automation task (Birthdays & Festivals)
-├── 🇵🇾 task02.py                 # Additional email tasks
-├── 🇵🇾 service.py                # Core service module (Email, Auth, Utils)
-├── 🇵🇾 requirements.txt          # Python dependencies
-├── 🇵🇾 .gitignore                # Git ignore rules
+├── 📄 task01.py                 # Daily automation task (Birthdays & Festivals)
+├── 📄 task02.py                 # Additional email tasks
+├── 📄 service.py                # Core service module (Email, Auth, Utils)
+├── 📄 requirements.txt          # Python dependencies
+├── 📄 .gitignore                # Git ignore rules
 │
 ├── 📁 Module/                   # Utility modules
 │   ├── setup_logger.py          # Logging configuration
