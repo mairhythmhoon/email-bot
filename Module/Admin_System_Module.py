@@ -1,3 +1,4 @@
+# Developed By github.com/@mairhythmhoon 
 from datetime import datetime, timedelta
 import json
 import logging
@@ -86,3 +87,5 @@ if __name__ == "__main__":
 
     print(bday_content)
     print(fest_content)
+# THis Module for what is next our system is running acording to festival data and users Bday type
+# and this is not using current system but in future we create some interasting function useng this Module 

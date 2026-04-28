@@ -1,3 +1,5 @@
+# Developed By github.com/@mairhythmhoon 
+
 # this is for .env file.
 python-dotenv
 

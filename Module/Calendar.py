@@ -1,3 +1,4 @@
+# Developed By github.com/@mairhythmhoon 
 import requests
 import json
 from datetime import datetime

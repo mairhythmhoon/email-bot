@@ -1,3 +1,4 @@
+# Developed By github.com/@mairhythmhoon 
 import os 
 import re
 import json
@@ -121,8 +122,8 @@ try:
     TEMPLATE_JOIN = load_template("Thank_You_Mail.html")
     TEMPLATE_BDAY = load_template("Birthday_Wishing_Mail.html")
     TEMPLATE_FESTIVAL = load_template("Festival_Mail.html")
-    TWO_FACTOR_AUTHENTICATION_PROCESS = load_template("Two_Factor_Authentication.html")
-    INTERNAL_MESSAGE = load_template("Future_TaskPlanning.html")
+    #TWO_FACTOR_AUTHENTICATION_PROCESS = load_template("Two_Factor_Authentication.html")
+    #INTERNAL_MESSAGE = load_template("Future_TaskPlanning.html")
 except Exception:
     logger.exception("Templates Is Not Present.")
     error("\n>> Template Is Not Present.")

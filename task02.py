@@ -1,3 +1,4 @@
+# Developed By github.com/@mairhythmhoon 
 import service
 from datetime import datetime, timedelta
 from Module import setup_logger
