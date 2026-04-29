@@ -30,9 +30,11 @@ jobs:
       # CRITICAL: Run only on last day
       - name: Check last day of month
         run: |
-          if [ "$(date -d tomorrow +%d)" != "01" ]; then
-            echo "Not last day. Exiting..."
+          if [ "$(TZ=Asia/Kolkata date -d tomorrow +%d)" != "01" ]; then
+            echo "Not last day (IST). Exiting..."
             exit 0
+          else
+            echo "Last day confirmed (IST). Running cleanup..."
           fi
 
       # Checkout repo
