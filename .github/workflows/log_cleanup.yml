@@ -2,10 +2,11 @@
 name: Monthly Log Cleanup
 
 on:
+  # Runs on 1st day of every month at 6:00 AM IST
   schedule:
-    # 11:30 AM IST
-    - cron: "0 6 28-31 * *"
+    - cron: "30 0 1 * *"
 
+  # Manual trigger from GitHub Actions tab
   workflow_dispatch:
 
 jobs:
@@ -13,6 +14,7 @@ jobs:
     name: Clear old log files
     runs-on: ubuntu-latest
 
+    # Enable latest JavaScript runtime for GitHub Actions
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -20,28 +22,18 @@ jobs:
       contents: write
 
     steps:
-      # Show trigger info
+      #Show Trigger informations.
       - name: Show trigger info
         run: |
           echo "Triggered by: ${{ github.event_name }}"
           echo "UTC Time: $(date -u)"
           echo "IST Time: $(TZ=Asia/Kolkata date)"
 
-      # CRITICAL: Run only on last day
-      - name: Check last day of month
-        run: |
-          if [ "$(TZ=Asia/Kolkata date -d tomorrow +%d)" != "01" ]; then
-            echo "Not last day (IST). Exiting..."
-            exit 0
-          else
-            echo "Last day confirmed (IST). Running cleanup..."
-          fi
-
-      # Checkout repo
+      # Step 1: Checkout repository files
       - name: Checkout repository
         uses: actions/checkout@v5
 
-      # Clean logs
+      # Step 2: Clear all .log files in Logs folder
       - name: Clean log files
         run: |
           if [ ! -d "Logs" ]; then
@@ -60,7 +52,7 @@ jobs:
             echo "Cleaned: $file"
           done
 
-      # Commit only if changes exist
+      # Step 3: Commit changes only if needed
       - name: Commit changes
         run: |
           git config --global user.name "mairhythmhoon"
@@ -74,6 +66,6 @@ jobs:
             git commit -m "Monthly cleanup of log files"
           fi
 
-      # Push changes
+      # Step 4: Push updated files
       - name: Push changes
         run: git push
