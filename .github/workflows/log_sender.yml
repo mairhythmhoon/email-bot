@@ -35,4 +35,4 @@ jobs:
 
       - name: Run Log Mail Script
         run: |
-          python your_script_name.py
+          python task03.py
