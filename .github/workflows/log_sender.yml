@@ -1,0 +1,38 @@
+# Developed By github.com/@mairhythmhoon
+name: Task-03 Log Mail Sender
+
+on:
+  workflow_dispatch:
+
+jobs:
+  send-logs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set timezone to IST
+        run: |
+          sudo timedatectl set-timezone Asia/Kolkata
+          date
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Create Secure folder
+        run: mkdir -p Secure
+
+      - name: Create .env file
+        run: echo "${{ secrets.ENV_FILE }}" > Secure/.env
+
+      - name: Run Log Mail Script
+        run: |
+          python your_script_name.py

@@ -122,6 +122,7 @@ try:
     TEMPLATE_JOIN = load_template("Thank_You_Mail.html")
     TEMPLATE_BDAY = load_template("Birthday_Wishing_Mail.html")
     TEMPLATE_FESTIVAL = load_template("Festival_Mail.html")
+    TEMPLATE_LOG = load_template("log_template.html")
     #TWO_FACTOR_AUTHENTICATION_PROCESS = load_template("Two_Factor_Authentication.html")
     #INTERNAL_MESSAGE = load_template("Future_TaskPlanning.html")
 except Exception:
