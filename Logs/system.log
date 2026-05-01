@@ -43,3 +43,17 @@ Cleanup Time: 01-05-2026 10:03:19 AM IST
 2026-05-01 15:30:38 | INFO     | Google_Sheet.py:75 | Data appended successfully.
 2026-05-01 15:30:38 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
 2026-05-01 15:30:38 | INFO     | Google_Sheet.py:75 | Data appended successfully.
+2026-05-01 19:28:15 | INFO     | service.py:33 | ===== EMAIL SYSTEM STARTED =====
+2026-05-01 19:28:15 | INFO     | service.py:44 | .env file is loaded
+2026-05-01 19:28:16 | INFO     | service.py:51 | Calendar.py Module's main_() is Running
+2026-05-01 19:28:16 | INFO     | service.py:153 | Todays Festivals is loaded in program.
+2026-05-01 19:28:19 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-05-01 19:28:21 | INFO     | Google_Sheet.py:54 | Data successfully written to data.json
+2026-05-01 19:28:21 | INFO     | task02.py:126 | Fetching Data From Database.
+2026-05-01 19:28:24 | INFO     | task02.py:103 | >> No new joiners since last run
+2026-05-01 19:28:27 | INFO     | task02.py:145 | Nothing to add in Daily-Stats
+2026-05-01 19:28:27 | INFO     | task02.py:162 | Adding to Days Login data and Email Send Data.
+2026-05-01 19:28:27 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-05-01 19:28:28 | INFO     | Google_Sheet.py:75 | Data appended successfully.
+2026-05-01 19:28:28 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-05-01 19:28:28 | INFO     | Google_Sheet.py:75 | Data appended successfully.
