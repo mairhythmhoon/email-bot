@@ -1,4 +1,5 @@
-# Developed By github.com/@mairhythmhoon 
+# Developed By github.com/@mairhythmhoon
+
 name: Monthly Log Cleanup
 
 on:
@@ -11,10 +12,13 @@ on:
 
 jobs:
   cleanup_logs:
+    # Extra protection:
+    # Runs ONLY for schedule or manual trigger
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+
     name: Clear old log files
     runs-on: ubuntu-latest
 
-    # Enable latest JavaScript runtime for GitHub Actions
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
@@ -22,18 +26,18 @@ jobs:
       contents: write
 
     steps:
-      #Show Trigger informations.
+      # Show trigger information
       - name: Show trigger info
         run: |
           echo "Triggered by: ${{ github.event_name }}"
           echo "UTC Time: $(date -u)"
           echo "IST Time: $(TZ=Asia/Kolkata date)"
 
-      # Step 1: Checkout repository files
+      # Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v5
 
-      # Step 2: Clear all .log files in Logs folder
+      # Cleanup old logs but preserve last 10 lines
       - name: Clean log files
         run: |
           if [ ! -d "Logs" ]; then
@@ -44,15 +48,26 @@ jobs:
           IST_TIME=$(TZ=Asia/Kolkata date "+%d-%m-%Y %I:%M:%S %p IST")
 
           find Logs -type f -name "*.log" | while read -r file; do
+
+            TEMP_FILE=$(mktemp)
+
             {
-              echo "This is removed by scheduler"
+              echo "========================================"
+              echo "Old logs cleaned by monthly scheduler"
               echo "Cleanup Time: $IST_TIME"
-            } > "$file"
+              echo "========================================"
+              echo ""
+
+              # Keep only latest 10 lines
+              tail -n 10 "$file"
+            } > "$TEMP_FILE"
+
+            mv "$TEMP_FILE" "$file"
 
             echo "Cleaned: $file"
           done
 
-      # Step 3: Commit changes only if needed
+      # Commit changes only if needed
       - name: Commit changes
         run: |
           git config --global user.name "mairhythmhoon"
@@ -66,6 +81,6 @@ jobs:
             git commit -m "Monthly cleanup of log files"
           fi
 
-      # Step 4: Push updated files
+      # Push updated files
       - name: Push changes
         run: git push
