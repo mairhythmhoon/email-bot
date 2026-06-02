@@ -2,7 +2,7 @@
 
 
 # Virtual Environment
-venv/
+.venv/
 
 # Secure folder 
 Secure/
