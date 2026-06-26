@@ -99,7 +99,7 @@ if __name__ == "__main__":
         service.logger.info("Fetching Data From Database.")
     except Exception as e:
         service.logger.exception("Module Level Error in 'Google_Sheet.py'.")
-        service.error("\n>> Module Level Error in 'Google_Sheet.py'..." + e)
+        service.error(f"\n>> Module Level Error in 'Google_Sheet.py'...{e}")
     service.info("\n>> LEVEL 01 IS DONE DATA IS GETING FROM DATABASE.\n")
     #time.sleep(3)
     
@@ -126,7 +126,7 @@ if __name__ == "__main__":
             service.append_to_sheet("Sheet-03", service.EMAIL_SHEET_DATA)
         except Exception as e:
             service.logger.exception("Module Level Error in 'Google_Sheet.py'.")
-            service.error("\n>> Module Level Error in 'Google_Sheet.py'..." + e)
+            service.error(f"\n>> Module Level Error in 'Google_Sheet.py'...{e}")
         service.info ("███████╗███╗   ██╗██████╗      ██████╗ ███████╗    ██████╗ ██████╗  ██████╗  ██████╗ ██████╗  █████╗ ███╗   ███╗")
         service.info ("██╔════╝████╗  ██║██╔══██╗    ██╔═══██╗██╔════╝    ██╔══██╗██╔══██╗██╔═══██╗██╔════╝ ██╔══██╗██╔══██╗████╗ ████║")   
         service.info ("█████╗  ██╔██╗ ██║██║  ██║    ██║   ██║█████╗      ██████╔╝██████╔╝██║   ██║██║  ███╗██████╔╝███████║██╔████╔██║")
