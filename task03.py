@@ -22,6 +22,8 @@ except Exception:
 
 SENDER_EMAIL = os.getenv("E_MAIL")
 SENDER_PASSWORD = os.getenv("PASSWORD")
+if SENDER_EMAIL is None or SENDER_PASSWORD is None:
+    raise ValueError("Email or Password not found")
 RECEIVER_EMAIL = os.getenv("RESPONS_MAILE")
 MONTH = datetime.now().strftime("%B")
 
@@ -62,7 +64,7 @@ def send_email(html,month):
             )
 
         with smtplib.SMTP_SSL('smtp.gmail.com', 465) as smtp:
-            smtp.login(SENDER_EMAIL, SENDER_PASSWORD)
+            smtp.login(SENDER_EMAIL or "", SENDER_PASSWORD or "")
             smtp.send_message(msg)
         return True
     except Exception as e :

@@ -73,6 +73,9 @@ def main():
 
                     join_str = join_time.strftime("%d/%m/%Y %H:%M:%S")
 
+                    if not service.TEMPLATE_JOIN:
+                        raise ValueError("Join HTML template is not loaded")
+
                     if "{name}" not in service.TEMPLATE_JOIN or "{join_time_str}" not in service.TEMPLATE_JOIN:
                         raise ValueError("Missing placeholder in Join HTML template")
 

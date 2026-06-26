@@ -56,6 +56,8 @@ except Exception as e:
 
 EMAIL = os.getenv("E_MAIL")
 PASSWORD = os.getenv("PASSWORD")
+if EMAIL is None or PASSWORD is None:
+    raise ValueError("Email or Password not found in environment variables")
 SMTP_SERVER = "smtp.gmail.com" 
 SMTP_PORT = 465
 
@@ -95,7 +97,7 @@ def send_email_html(to, subject, html_content,name):
         msg.add_alternative(html_content, subtype='html')
      
         smtp = smtplib.SMTP_SSL(SMTP_SERVER, SMTP_PORT)
-        smtp.login(EMAIL, PASSWORD)
+        smtp.login(EMAIL or "", PASSWORD or "")
        
         smtp.send_message(msg)
         records_of_email_sended(EMAIL,to,subject)
@@ -131,21 +133,17 @@ except Exception:
 
 #this function get festival is today
 def load_festivals_for_today(json_path):
-    today = datetime.now().strftime("%Y-%m-%d")
+    today = datetime.now().strftime("%d/%m/%Y")
+
     with open(json_path, "r", encoding="utf-8") as f:
         festivals = json.load(f)
-    for person in festivals:
-        try:
-            if "date" in festivals:
-                festivals["date"] = datetime.strptime(festivals["date"],"%d/%m/%Y")
-        except ValueError:
-            error("Error")
 
-        today_festivals = [
-            f["festival_name"]
-            for f in festivals
-            if f["date"] == today
-        ]
+    today_festivals = [
+        festival["festival_name"]
+        for festival in festivals
+        if festival.get("date") == today
+    ]
+
     return today_festivals
 
 # this is normally list 
