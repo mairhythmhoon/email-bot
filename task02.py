@@ -136,7 +136,7 @@ if __name__ == "__main__":
 
     service.info("\n>> LEVEL 02 : Running Algorithm For New Joiners Sending Mails Task.")
     now = datetime.now()
-    formatted_time = now.strftime("%d-%m-%Y %H:%M:%S")
+    formatted_time = now.strftime("%d/%m/%Y %H:%M:%S")
 
     service.info(f"\n>> From {load_last_run()} to {formatted_time}.")
 
