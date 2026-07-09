@@ -561,3 +561,62 @@ Cleanup Time: 01-07-2026 10:28:47 AM IST
 2026-07-09 13:30:25 | INFO     | Google_Sheet.py:75 | Data appended successfully.
 2026-07-09 13:30:26 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
 2026-07-09 13:30:26 | INFO     | Google_Sheet.py:75 | Data appended successfully.
+2026-07-09 16:52:54 | INFO     | service.py:33 | ===== EMAIL SYSTEM STARTED =====
+2026-07-09 16:52:54 | INFO     | service.py:44 | .env file is loaded
+2026-07-09 16:52:54 | INFO     | service.py:51 | Calendar.py Module's main_() is Running
+2026-07-09 16:52:54 | INFO     | service.py:151 | Todays Festivals is loaded in program.
+2026-07-09 16:52:57 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-07-09 16:53:58 | ERROR    | Google_Sheet.py:60 | Unexpected error occurred
+Traceback (most recent call last):
+  File "/home/runner/work/email-bot/email-bot/Module/Google_Sheet.py", line 30, in get_data_from_google_sheet
+    ).execute()
+      ^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/googleapiclient/http.py", line 923, in execute
+    resp, content = _retry_request(
+                    ^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/googleapiclient/http.py", line 222, in _retry_request
+    raise exception
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/googleapiclient/http.py", line 191, in _retry_request
+    resp, content = http.request(uri, method, *args, **kwargs)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/google_auth_httplib2.py", line 214, in request
+    response, content = self.http.request(
+                        ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/httplib2/__init__.py", line 1755, in request
+    (response, content) = self._request(
+                          ^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/httplib2/__init__.py", line 1475, in _request
+    (response, content) = self._conn_request(conn, request_uri, method, body, headers)
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/httplib2/__init__.py", line 1427, in _conn_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/http/client.py", line 1415, in getresponse
+    response.begin()
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/http/client.py", line 330, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/http/client.py", line 291, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/socket.py", line 718, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/ssl.py", line 1314, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/ssl.py", line 1166, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+2026-07-09 16:53:58 | INFO     | task02.py:129 | Fetching Data From Database.
+2026-07-09 16:54:01 | INFO     | task02.py:106 | >> No new joiners since last run
+2026-07-09 16:54:04 | INFO     | task02.py:148 | Nothing to add in Daily-Stats
+2026-07-09 16:54:04 | INFO     | task02.py:165 | Adding to Days Login data and Email Send Data.
+2026-07-09 16:54:04 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-07-09 16:54:05 | INFO     | Google_Sheet.py:75 | Data appended successfully.
+2026-07-09 16:54:05 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-07-09 16:54:05 | INFO     | Google_Sheet.py:75 | Data appended successfully.
