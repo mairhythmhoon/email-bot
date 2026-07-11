@@ -718,3 +718,17 @@ TimeoutError: The read operation timed out
 2026-07-11 09:19:35 | INFO     | Google_Sheet.py:75 | Data appended successfully.
 2026-07-11 09:19:35 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
 2026-07-11 09:19:36 | INFO     | Google_Sheet.py:75 | Data appended successfully.
+2026-07-11 10:56:06 | INFO     | service.py:33 | ===== EMAIL SYSTEM STARTED =====
+2026-07-11 10:56:06 | INFO     | service.py:44 | .env file is loaded
+2026-07-11 10:56:07 | INFO     | service.py:51 | Calendar.py Module's main_() is Running
+2026-07-11 10:56:07 | INFO     | service.py:151 | Todays Festivals is loaded in program.
+2026-07-11 10:56:07 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-07-11 10:56:08 | INFO     | Google_Sheet.py:54 | Data successfully written to data.json
+2026-07-11 10:56:08 | INFO     | task01.py:99 | Fetching Data From Database.
+2026-07-11 10:56:08 | INFO     | task01.py:66 | >> No Birthdays today	>> No festivals today
+2026-07-11 10:56:08 | INFO     | task01.py:112 | Nothing to add in Daily-Stats
+2026-07-11 10:56:08 | INFO     | task01.py:123 | Adding to Days Login data and Email Send Data.
+2026-07-11 10:56:08 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-07-11 10:56:08 | INFO     | Google_Sheet.py:75 | Data appended successfully.
+2026-07-11 10:56:08 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-07-11 10:56:09 | INFO     | Google_Sheet.py:75 | Data appended successfully.
