@@ -1114,3 +1114,11 @@ TimeoutError: The read operation timed out
 2026-07-16 12:51:22 | INFO     | Google_Sheet.py:75 | Data appended successfully.
 2026-07-16 12:51:22 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
 2026-07-16 12:51:23 | INFO     | Google_Sheet.py:75 | Data appended successfully.
+2026-07-16 12:57:49 | INFO     | service.py:33 | ===== EMAIL SYSTEM STARTED =====
+2026-07-16 12:57:49 | INFO     | service.py:44 | .env file is loaded
+2026-07-16 12:57:51 | INFO     | service.py:51 | Calendar.py Module's main_() is Running
+2026-07-16 12:57:51 | INFO     | service.py:151 | Todays Festivals is loaded in program.
+2026-07-16 12:58:45 | INFO     | service.py:33 | ===== EMAIL SYSTEM STARTED =====
+2026-07-16 12:58:45 | INFO     | service.py:44 | .env file is loaded
+2026-07-16 12:58:47 | INFO     | service.py:51 | Calendar.py Module's main_() is Running
+2026-07-16 12:58:47 | INFO     | service.py:151 | Todays Festivals is loaded in program.

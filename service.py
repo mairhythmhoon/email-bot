@@ -133,7 +133,7 @@ except Exception:
 
 #this function get festival is today
 def load_festivals_for_today(json_path):
-    today = datetime.now().strftime("%d/%m/%Y")
+    today = datetime.now().strftime("%Y-%m-%d")
 
     with open(json_path, "r", encoding="utf-8") as f:
         festivals = json.load(f)
