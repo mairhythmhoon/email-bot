@@ -11,6 +11,7 @@ def main():
     try:
         now = datetime.now().replace(microsecond=0)
         today = now.strftime("%d/%m")
+        print(now)
 
         with open(service.BASE_DIR / "Data" / "data.json","r",encoding="utf-8") as f:
             data = json.load(f)
