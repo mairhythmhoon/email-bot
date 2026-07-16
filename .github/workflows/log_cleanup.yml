@@ -36,6 +36,18 @@ jobs:
       # Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v5
+    
+      - name: Checkout code
+        uses: actions/checkout@v5
+      
+      - name: Install Fastfetch
+        run: |
+            sudo apt-get update
+            sudo apt-get install -y fastfetch
+
+      - name: Run Fastfetch
+        run: fastfetch
+
 
       # Cleanup old logs but preserve last 10 lines
       - name: Clean log files
