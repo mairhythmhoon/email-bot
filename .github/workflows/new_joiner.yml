@@ -26,14 +26,6 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v5
       
-      - name: Install Fastfetch
-        run: |
-            sudo apt-get update
-            sudo apt-get install -y fastfetch
-
-      - name: Run Fastfetch
-        run: fastfetch
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
