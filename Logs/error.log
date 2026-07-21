@@ -103,3 +103,108 @@ Traceback (most recent call last):
     return self._sslobj.read(len, buffer)
            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 TimeoutError: The read operation timed out
+2026-07-21 21:37:39 | ERROR    | Google_Sheet.py:60 | Unexpected error occurred
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/Module/Google_Sheet.py", line 24, in get_data_from_google_sheet
+    service = get_sheets_service()
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/Module/Google_Sheet.py", line 15, in get_sheets_service
+    credentials = Credentials.from_service_account_file(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/.venv/lib/python3.12/site-packages/google/oauth2/service_account.py", line 271, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/.venv/lib/python3.12/site-packages/google/auth/_service_account_info.py", line 78, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'Secure/credentials.json'
+2026-07-21 21:37:44 | ERROR    | Google_Sheet.py:80 | Unexpected error while appending data
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/Module/Google_Sheet.py", line 65, in append_to_sheet
+    service = get_sheets_service()
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/Module/Google_Sheet.py", line 15, in get_sheets_service
+    credentials = Credentials.from_service_account_file(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/.venv/lib/python3.12/site-packages/google/oauth2/service_account.py", line 271, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/.venv/lib/python3.12/site-packages/google/auth/_service_account_info.py", line 78, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'Secure/credentials.json'
+2026-07-21 21:37:44 | ERROR    | Google_Sheet.py:80 | Unexpected error while appending data
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/Module/Google_Sheet.py", line 65, in append_to_sheet
+    service = get_sheets_service()
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/Module/Google_Sheet.py", line 15, in get_sheets_service
+    credentials = Credentials.from_service_account_file(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/.venv/lib/python3.12/site-packages/google/oauth2/service_account.py", line 271, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/.venv/lib/python3.12/site-packages/google/auth/_service_account_info.py", line 78, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'Secure/credentials.json'
+2026-07-21 21:37:44 | ERROR    | Google_Sheet.py:80 | Unexpected error while appending data
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/Module/Google_Sheet.py", line 65, in append_to_sheet
+    service = get_sheets_service()
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/Module/Google_Sheet.py", line 15, in get_sheets_service
+    credentials = Credentials.from_service_account_file(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/.venv/lib/python3.12/site-packages/google/oauth2/service_account.py", line 271, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/.venv/lib/python3.12/site-packages/google/auth/_service_account_info.py", line 78, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'Secure/credentials.json'
+2026-07-21 21:38:05 | ERROR    | Google_Sheet.py:60 | Unexpected error occurred
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/Module/Google_Sheet.py", line 24, in get_data_from_google_sheet
+    service = get_sheets_service()
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/Module/Google_Sheet.py", line 15, in get_sheets_service
+    credentials = Credentials.from_service_account_file(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/.venv/lib/python3.12/site-packages/google/oauth2/service_account.py", line 271, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/.venv/lib/python3.12/site-packages/google/auth/_service_account_info.py", line 78, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'Secure/credentials.json'
+2026-07-21 21:38:11 | ERROR    | Google_Sheet.py:80 | Unexpected error while appending data
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/Module/Google_Sheet.py", line 65, in append_to_sheet
+    service = get_sheets_service()
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/Module/Google_Sheet.py", line 15, in get_sheets_service
+    credentials = Credentials.from_service_account_file(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/.venv/lib/python3.12/site-packages/google/oauth2/service_account.py", line 271, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/.venv/lib/python3.12/site-packages/google/auth/_service_account_info.py", line 78, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'Secure/credentials.json'
+2026-07-21 21:38:11 | ERROR    | Google_Sheet.py:80 | Unexpected error while appending data
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/Module/Google_Sheet.py", line 65, in append_to_sheet
+    service = get_sheets_service()
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/Module/Google_Sheet.py", line 15, in get_sheets_service
+    credentials = Credentials.from_service_account_file(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/.venv/lib/python3.12/site-packages/google/oauth2/service_account.py", line 271, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/.venv/lib/python3.12/site-packages/google/auth/_service_account_info.py", line 78, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'Secure/credentials.json'
