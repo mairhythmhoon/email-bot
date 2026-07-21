@@ -57,6 +57,9 @@ jobs:
       - name: Run Python task
         run: python task02.py
 
+      - name : Mask User Data
+        run : python mask_data.py
+        
       - name: Commit & Push changes
         run: |
           git add .
