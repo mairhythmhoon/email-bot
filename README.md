@@ -388,8 +388,6 @@ This project is open source and available under the [MIT License](LICENSE).<br><
 
 ---
 
-[![](https://komarev.com/ghpvc/?username=mairhythmhoon&repo=email-bot&color=blueviolet&style=flat-square)](https://visitcount.itsvg.in)
-
 *Last Updated: April 24, 2026*
 
 </div>
