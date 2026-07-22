@@ -51,7 +51,16 @@ for record in data:
         )
 
     if "Birthdate" in record:
-        record["Birthdate"] = "**/**/****"
+        birthdate = str(record["Birthdate"]).strip()
+
+        if "/" in birthdate:
+            year = birthdate.split("/")[-1]
+        elif "-" in birthdate:
+            year = birthdate.split("-")[0]  # Handles YYYY-MM-DD
+        else:
+            year = "****"
+
+        record["Birthdate"] = f"**/**/{year}"
 
 # Overwrite the same file
 with open(DATA_FILE, "w", encoding="utf-8") as file:
