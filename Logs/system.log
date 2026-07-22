@@ -2411,3 +2411,550 @@ Traceback (most recent call last):
     with io.open(filename, "r", encoding="utf-8") as json_file:
          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 FileNotFoundError: [Errno 2] No such file or directory: 'Secure/credentials.json'
+2026-07-22 21:37:08 | INFO     | service.py:33 | ===== EMAIL SYSTEM STARTED =====
+2026-07-22 21:37:08 | INFO     | service.py:44 | .env file is loaded
+2026-07-22 21:37:16 | INFO     | service.py:51 | Calendar.py Module's main_() is Running
+2026-07-22 21:37:16 | INFO     | service.py:151 | Todays Festivals is loaded in program.
+2026-07-22 21:37:19 | ERROR    | Google_Sheet.py:60 | Unexpected error occurred
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/Module/Google_Sheet.py", line 24, in get_data_from_google_sheet
+    service = get_sheets_service()
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/Module/Google_Sheet.py", line 15, in get_sheets_service
+    credentials = Credentials.from_service_account_file(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/.venv/lib/python3.12/site-packages/google/oauth2/service_account.py", line 271, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/.venv/lib/python3.12/site-packages/google/auth/_service_account_info.py", line 78, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'Secure/credentials.json'
+2026-07-22 21:37:19 | INFO     | task02.py:129 | Fetching Data From Database.
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Ri*********ar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Ri*********ar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Ak*********ar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Vr*********ya: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Ke***********ya: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Bh***********ia: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Ak*********ar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Pa*********sh: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Ni********ar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Ni********ar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Vy*****ut: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Ja***ep: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Sa************sh: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Ri*********ar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Kr**************ya: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Pa***********sh: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Ha**********ar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for As************ar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Vi**********ra: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Su********th: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Di*********ar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Ma**********ni: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Ak***********ra: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for He**********ya: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Bh***************la: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Ri*********ar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Ma*******na: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Ri********da: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Sa*********************ai: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Sh************sh: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Ma*********la: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Ma**********ni: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Ni********ar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Ri*********ar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Di************H.: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Mo*************al: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Sh************ya: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for za**********************ya: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Ka********************ai: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | ERROR    | task02.py:100 | Error for Ri*********ar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:37:22 | INFO     | task02.py:106 | >> No new joiners since last run
+2026-07-22 21:37:25 | INFO     | task02.py:148 | Nothing to add in Daily-Stats
+2026-07-22 21:37:25 | INFO     | task02.py:165 | Adding to Days Login data and Email Send Data.
+2026-07-22 21:37:25 | ERROR    | Google_Sheet.py:80 | Unexpected error while appending data
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/Module/Google_Sheet.py", line 65, in append_to_sheet
+    service = get_sheets_service()
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/Module/Google_Sheet.py", line 15, in get_sheets_service
+    credentials = Credentials.from_service_account_file(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/.venv/lib/python3.12/site-packages/google/oauth2/service_account.py", line 271, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/.venv/lib/python3.12/site-packages/google/auth/_service_account_info.py", line 78, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'Secure/credentials.json'
+2026-07-22 21:37:25 | ERROR    | Google_Sheet.py:80 | Unexpected error while appending data
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/Module/Google_Sheet.py", line 65, in append_to_sheet
+    service = get_sheets_service()
+              ^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/Module/Google_Sheet.py", line 15, in get_sheets_service
+    credentials = Credentials.from_service_account_file(
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/.venv/lib/python3.12/site-packages/google/oauth2/service_account.py", line 271, in from_service_account_file
+    info, signer = _service_account_info.from_filename(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/mairhythmhoon/email-bot/.venv/lib/python3.12/site-packages/google/auth/_service_account_info.py", line 78, in from_filename
+    with io.open(filename, "r", encoding="utf-8") as json_file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'Secure/credentials.json'
+2026-07-22 21:39:16 | INFO     | service.py:33 | ===== EMAIL SYSTEM STARTED =====
+2026-07-22 21:39:16 | INFO     | service.py:44 | .env file is loaded
+2026-07-22 21:39:18 | INFO     | service.py:51 | Calendar.py Module's main_() is Running
+2026-07-22 21:39:18 | INFO     | service.py:151 | Todays Festivals is loaded in program.
+2026-07-22 21:39:21 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-07-22 21:39:24 | INFO     | Google_Sheet.py:54 | Data successfully written to data.json
+2026-07-22 21:39:24 | INFO     | task02.py:129 | Fetching Data From Database.
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Ridham Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Ridham Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Akshay Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Vraj Malaviya: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Ketan Kanzariya: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Bhavy Karavadia: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Akshay parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Parmar Manish: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Nitin Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Nitin Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Vyas Krut: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Jaydeep: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Saresa shreyansh: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Ridham Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Krutarth Jotangiya: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Patadiya jenish: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Harshad Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Ashokbhai Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Vivek Bhindora: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Suthar parth: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Dipali Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Manthan Jivani: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Akash Siddhpura: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Heet Dervadiya: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Bhagyashree Vaghela: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Ridham Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Man Makvana: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Ridham Degda: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Sarena Priyank Rajeshbhai: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Shekhada preyash: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Manan Vaghela: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Manthan Jivani: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Nitin Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Ridham Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Dipali Parmar H.: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Modhavaniya Keval: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Shivam Pithadiya: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for zalavadiya harvizalavadiya: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Karena divya Rajesh bhai: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | ERROR    | task02.py:100 | Error for Ridham Parmar: '<=' not supported between instances of 'str' and 'datetime.datetime'
+Traceback (most recent call last):
+  File "/home/mairhythmhoon/email-bot/task02.py", line 70, in main
+    if start_time <= join_time <= run_time:
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
+2026-07-22 21:39:27 | INFO     | task02.py:106 | >> No new joiners since last run
+2026-07-22 21:39:30 | INFO     | task02.py:148 | Nothing to add in Daily-Stats
+2026-07-22 21:39:30 | INFO     | task02.py:165 | Adding to Days Login data and Email Send Data.
+2026-07-22 21:39:30 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-07-22 21:39:35 | INFO     | Google_Sheet.py:75 | Data appended successfully.
+2026-07-22 21:39:35 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-07-22 21:39:37 | INFO     | Google_Sheet.py:75 | Data appended successfully.
