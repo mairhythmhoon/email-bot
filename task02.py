@@ -20,7 +20,7 @@ def load_last_run():
         if not data.get("last_timestamp"):
             return None
 
-        return datetime.strptime(data["last_timestamp"], "%d/%m/%Y %H:%M:%S")
+        return data["last_timestamp"]
 
     except Exception:
         return None

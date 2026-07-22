@@ -100,11 +100,6 @@
         "calendar": "Indian"
     },
     {
-        "date": "2026-04-05",
-        "festival_name": "Easter Day",
-        "calendar": "Indian"
-    },
-    {
         "date": "2026-04-14",
         "festival_name": "Vaisakhi",
         "calendar": "Indian"
@@ -141,7 +136,7 @@
     },
     {
         "date": "2026-06-26",
-        "festival_name": "Muharram/Ashura (tentative)",
+        "festival_name": "Muharram/Ashura",
         "calendar": "Indian"
     },
     {
