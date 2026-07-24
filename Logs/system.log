@@ -3338,3 +3338,17 @@ TypeError: '<=' not supported between instances of 'str' and 'datetime.datetime'
 2026-07-24 12:14:20 | INFO     | Google_Sheet.py:75 | Data appended successfully.
 2026-07-24 12:14:20 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
 2026-07-24 12:14:20 | INFO     | Google_Sheet.py:75 | Data appended successfully.
+2026-07-24 16:01:13 | INFO     | service.py:33 | ===== EMAIL SYSTEM STARTED =====
+2026-07-24 16:01:13 | INFO     | service.py:44 | .env file is loaded
+2026-07-24 16:01:14 | INFO     | service.py:51 | Calendar.py Module's main_() is Running
+2026-07-24 16:01:14 | INFO     | service.py:151 | Todays Festivals is loaded in program.
+2026-07-24 16:01:17 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-07-24 16:01:18 | INFO     | Google_Sheet.py:54 | Data successfully written to data.json
+2026-07-24 16:01:18 | INFO     | task02.py:129 | Fetching Data From Database.
+2026-07-24 16:01:21 | INFO     | task02.py:106 | >> No new joiners since last run
+2026-07-24 16:01:24 | INFO     | task02.py:148 | Nothing to add in Daily-Stats
+2026-07-24 16:01:24 | INFO     | task02.py:165 | Adding to Days Login data and Email Send Data.
+2026-07-24 16:01:24 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-07-24 16:01:25 | INFO     | Google_Sheet.py:75 | Data appended successfully.
+2026-07-24 16:01:25 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-07-24 16:01:25 | INFO     | Google_Sheet.py:75 | Data appended successfully.
