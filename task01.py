@@ -16,7 +16,7 @@ def main():
         with open(service.BASE_DIR / "Data" / "data.json","r",encoding="utf-8") as f:
             data = json.load(f)
 
-        if not service.festivals_list:
+        if not (service.festivals_list or service.custom_events_list):
             service.error("\n>> No Festival Today.\n")
         else:
             service.info(f">>Today is {service.festivals_list}")
@@ -49,8 +49,11 @@ def main():
                             service.COUNTS["total"]+=1
                     
                 # Check for today's festival
-                if (service.festivals_list)  and service.TEMPLATE_FESTIVAL:
-                    festival = service.festivals_list[0]
+                if service.TEMPLATE_FESTIVAL and (service.festivals_list or service.custom_events_list):
+                    if service.festivals_list:
+                        festival = service.festivals_list[0]
+                    else:
+                        festival = service.custom_events_list[0]
                     if "{name}" not in service.TEMPLATE_FESTIVAL or "{festival}" not in service.TEMPLATE_FESTIVAL:
                         service.logger.exception("Corrupted HTML file.")
                         raise ValueError("Missing placeholder in Join HTML template")
@@ -63,7 +66,7 @@ def main():
             except Exception as e:
                 service.logger.exception(f"Error for {person['Name']}: {e}")
                 service.error(f"Error for {person['Name']}: {e}")    
-        if not brithday_sent and (not service.festivals_list):
+        if not brithday_sent and (not (service.festivals_list or service.custom_events_list)):
             service.logger.info(f">> No Birthdays today\t>> No festivals today")
             service.error(f">> No Birthdays today\n>> No festivals today")
     except Exception as e:

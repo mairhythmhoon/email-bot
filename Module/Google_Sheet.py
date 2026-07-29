@@ -19,7 +19,7 @@ def get_sheets_service():
     return build("sheets", "v4", credentials=credentials)
 
 
-def get_data_from_google_sheet(range_):
+def get_data_from_google_sheet(range_,output_path = f"Data/data.json"):
     try:
         service = get_sheets_service()
         sheet = service.spreadsheets()
@@ -46,7 +46,7 @@ def get_data_from_google_sheet(range_):
                 obj[key] = row[i].strip() if i < len(row) else ""
             json_list.append(obj)
 
-        output_path = f"Data/data.json"
+        # output_path = f"Data/data.json"
 
         with open(output_path, "w", encoding="utf-8") as f:
             json.dump(json_list, f, indent=4, ensure_ascii=False)
@@ -82,5 +82,6 @@ def append_to_sheet(sheet_name, rows):
 
 # Dry run
 if __name__ == "__main__":
+    get_data_from_google_sheet("custom_events",output_path= f"Data/custom_events.json")
     sheet_name = input("Enter sheet range : ")
     get_data_from_google_sheet(sheet_name)

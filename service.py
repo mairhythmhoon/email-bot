@@ -53,6 +53,13 @@ except Exception as e:
     error("\n>> Module Level Error in 'Calendar.py'...")
     logger.exception("Exception in Calender.py")
     error(e)
+try:
+    get_data_from_google_sheet("custom_events",output_path= f"Data/custom_events.json")
+    logger.info("custom events get from google sheet")
+except Exception as e :
+    error("\n>> Module Leavel Error in 'Google_sheet.py'...")
+    logger.exception("Exception in Google_Sheet.py")
+    error(e)
 
 EMAIL = os.getenv("E_MAIL")
 PASSWORD = os.getenv("PASSWORD")
@@ -133,7 +140,7 @@ except Exception:
 
 #this function get festival is today
 def load_festivals_for_today(json_path):
-    today = datetime.now().strftime("%Y-%m-%d")
+    today = datetime.now().strftime("%d-%m-%Y")
 
     with open(json_path, "r", encoding="utf-8") as f:
         festivals = json.load(f)
@@ -150,6 +157,7 @@ def load_festivals_for_today(json_path):
 try:
     logger.info("Todays Festivals is loaded in program.")
     festivals_list = load_festivals_for_today(BASE_DIR / "Data" / "festivals.json")
+    custom_events_list = load_festivals_for_today(BASE_DIR / "Data" / "custom_events.json")
 except Exception:
     logger.exception("festival.json is not found")
     error("\n>> 'festival.json' File Is Not Present.")
