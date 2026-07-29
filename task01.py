@@ -19,7 +19,7 @@ def main():
         if not (service.festivals_list or service.custom_events_list):
             service.error("\n>> No Festival Today.\n")
         else:
-            service.info(f">>Today is {service.festivals_list}")
+            service.info(f">>Today is {service.festivals_list or service.custom_events_list}")
         
         brithday_sent = False
 
