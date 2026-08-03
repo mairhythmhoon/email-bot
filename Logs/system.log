@@ -282,3 +282,20 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/httplib2/__init__.py", line 1162, in connect
     sock.connect((self.host, self.port))
 TimeoutError: timed out
+2026-08-03 09:33:51 | INFO     | service.py:33 | ===== EMAIL SYSTEM STARTED =====
+2026-08-03 09:33:51 | INFO     | service.py:44 | .env file is loaded
+2026-08-03 09:33:51 | INFO     | service.py:51 | Calendar.py Module's main_() is Running
+2026-08-03 09:33:51 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-08-03 09:33:52 | INFO     | Google_Sheet.py:54 | Data successfully written to data.json
+2026-08-03 09:33:52 | INFO     | service.py:58 | custom events get from google sheet
+2026-08-03 09:33:52 | INFO     | service.py:158 | Todays Festivals is loaded in program.
+2026-08-03 09:33:55 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-08-03 09:33:55 | INFO     | Google_Sheet.py:54 | Data successfully written to data.json
+2026-08-03 09:33:55 | INFO     | task02.py:129 | Fetching Data From Database.
+2026-08-03 09:33:58 | INFO     | task02.py:106 | >> No new joiners since last run
+2026-08-03 09:34:01 | INFO     | task02.py:148 | Nothing to add in Daily-Stats
+2026-08-03 09:34:01 | INFO     | task02.py:165 | Adding to Days Login data and Email Send Data.
+2026-08-03 09:34:02 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-08-03 09:34:02 | INFO     | Google_Sheet.py:75 | Data appended successfully.
+2026-08-03 09:34:02 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-08-03 09:34:02 | INFO     | Google_Sheet.py:75 | Data appended successfully.
