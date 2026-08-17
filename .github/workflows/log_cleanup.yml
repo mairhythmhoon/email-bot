@@ -12,8 +12,7 @@ on:
 
 jobs:
   cleanup_logs:
-    # Extra protection:
-    # Runs ONLY for schedule or manual trigger
+    # Runs only from schedule or manual trigger
     if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
 
     name: Clear old log files
@@ -24,6 +23,7 @@ jobs:
 
     permissions:
       contents: write
+      actions: write
 
     steps:
       # Show trigger information
@@ -36,11 +36,93 @@ jobs:
       # Checkout repository
       - name: Checkout repository
         uses: actions/checkout@v5
-    
-      - name: Checkout code
-        uses: actions/checkout@v5
 
-      # Cleanup old logs but preserve last 10 lines
+      # Run log_sender.yml first
+      - name: Run log_sender.yml
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "Starting Task-03 Log Mail Sender"
+
+          BEFORE_RUN=$(gh run list \
+            --workflow="log_sender.yml" \
+            --repo="${{ github.repository }}" \
+            --limit=1 \
+            --json databaseId \
+            --jq '.[0].databaseId // empty')
+
+          echo "Previous run ID: ${BEFORE_RUN:-None}"
+
+          gh workflow run log_sender.yml \
+            --repo="${{ github.repository }}"
+
+          echo "log_sender.yml triggered successfully."
+          echo "Waiting for new workflow run..."
+
+          for i in {1..30}; do
+            RUN_ID=$(gh run list \
+              --workflow="log_sender.yml" \
+              --repo="${{ github.repository }}" \
+              --limit=10 \
+              --json databaseId,status,createdAt \
+              --jq --arg before "${BEFORE_RUN:-0}" '
+                [.[] |
+                  select((.databaseId | tostring) != $before)
+                ] |
+                sort_by(.createdAt) |
+                last |
+                .databaseId // empty
+              ')
+
+            if [ -n "$RUN_ID" ]; then
+              break
+            fi
+
+            echo "Waiting for log_sender.yml run to appear..."
+            sleep 2
+          done
+
+          if [ -z "$RUN_ID" ]; then
+            echo "ERROR: Could not find the newly triggered log_sender.yml run."
+            exit 1
+          fi
+
+          echo "New log_sender.yml Run ID: $RUN_ID"
+          echo "Waiting for log_sender.yml to finish..."
+
+          while true; do
+            STATUS=$(gh run view "$RUN_ID" \
+              --repo="${{ github.repository }}" \
+              --json status \
+              --jq '.status')
+
+            CONCLUSION=$(gh run view "$RUN_ID" \
+              --repo="${{ github.repository }}" \
+              --json conclusion \
+              --jq '.conclusion')
+
+            echo "Status: $STATUS"
+            echo "Conclusion: $CONCLUSION"
+
+            if [ "$STATUS" = "completed" ]; then
+              break
+            fi
+
+            echo "log_sender.yml is still running..."
+            sleep 10
+          done
+
+          # Stop cleanup if log_sender failed
+          if [ "$CONCLUSION" != "success" ]; then
+            echo "ERROR: log_sender.yml FAILED"
+            echo "Cleanup will NOT run."
+            exit 1
+          fi
+
+          echo "log_sender.yml completed successfully."
+          echo "Starting cleanup task..."
+
+      # Clean old log files
       - name: Clean log files
         run: |
           if [ ! -d "Logs" ]; then
@@ -51,7 +133,6 @@ jobs:
           IST_TIME=$(TZ=Asia/Kolkata date "+%d-%m-%Y %I:%M:%S %p IST")
 
           find Logs -type f -name "*.log" | while read -r file; do
-
             TEMP_FILE=$(mktemp)
 
             {
@@ -61,7 +142,7 @@ jobs:
               echo "========================================"
               echo ""
 
-              # Keep only latest 10 lines
+              # Keep latest 10 lines
               tail -n 10 "$file"
             } > "$TEMP_FILE"
 
@@ -70,7 +151,7 @@ jobs:
             echo "Cleaned: $file"
           done
 
-      # Commit changes only if needed
+      # Commit changes
       - name: Commit changes
         run: |
           git config --global user.name "mairhythmhoon"
@@ -84,6 +165,6 @@ jobs:
             git commit -m "Monthly cleanup of log files"
           fi
 
-      # Push updated files
+      # Push changes
       - name: Push changes
         run: git push
