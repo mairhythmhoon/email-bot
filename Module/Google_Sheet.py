@@ -1,15 +1,23 @@
 # Developed By github.com/@mairhythmhoon 
 import json
 import logging
+import os 
+from dotenv import load_dotenv
 from google.oauth2.service_account import Credentials
 from googleapiclient.discovery import build
+from pathlib import Path
 from googleapiclient.errors import HttpError
 logger = logging.getLogger(__name__)
 
+try:
+    load_dotenv("Secure/.env")
+except Exception:
+    print("\n>> .env File Is Not Present")
+    exit()
+
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
 SERVICE_ACCOUNT_FILE = f"Secure/credentials.json"
-SPREADSHEET_ID = "1l_Nl_Q3sZnOlkCN4-rKRTUA865dJEN9kAU6xqOfWI7s"
-
+SPREADSHEET_ID = os.getenv("SPREADSHEET_ID")
 
 def get_sheets_service():
     credentials = Credentials.from_service_account_file(
@@ -82,6 +90,6 @@ def append_to_sheet(sheet_name, rows):
 
 # Dry run
 if __name__ == "__main__":
-    get_data_from_google_sheet("custom_events",output_path= f"Data/custom_events.json")
+    get_data_from_google_sheet("custom_events",output_path=f"Data/custom_events.json")
     sheet_name = input("Enter sheet range : ")
     get_data_from_google_sheet(sheet_name)
