@@ -1746,3 +1746,20 @@ TimeoutError: timed out
 2026-08-20 07:26:36 | INFO     | Google_Sheet.py:83 | Data appended successfully.
 2026-08-20 07:26:36 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
 2026-08-20 07:26:37 | INFO     | Google_Sheet.py:83 | Data appended successfully.
+2026-08-20 08:54:35 | INFO     | service.py:33 | ===== EMAIL SYSTEM STARTED =====
+2026-08-20 08:54:35 | INFO     | service.py:44 | .env file is loaded
+2026-08-20 08:54:35 | INFO     | service.py:51 | Calendar.py Module's main_() is Running
+2026-08-20 08:54:35 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-08-20 08:54:36 | INFO     | Google_Sheet.py:62 | Data successfully written to data.json
+2026-08-20 08:54:36 | INFO     | service.py:58 | custom events get from google sheet
+2026-08-20 08:54:36 | INFO     | service.py:158 | Todays Festivals is loaded in program.
+2026-08-20 08:54:36 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-08-20 08:54:37 | INFO     | Google_Sheet.py:62 | Data successfully written to data.json
+2026-08-20 08:54:37 | INFO     | task01.py:103 | Fetching Data From Database.
+2026-08-20 08:54:37 | INFO     | task01.py:70 | >> No Birthdays today	>> No festivals today
+2026-08-20 08:54:37 | INFO     | task01.py:116 | Nothing to add in Daily-Stats
+2026-08-20 08:54:37 | INFO     | task01.py:127 | Adding to Days Login data and Email Send Data.
+2026-08-20 08:54:37 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-08-20 08:54:37 | INFO     | Google_Sheet.py:83 | Data appended successfully.
+2026-08-20 08:54:37 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-08-20 08:54:37 | INFO     | Google_Sheet.py:83 | Data appended successfully.
