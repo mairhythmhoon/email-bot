@@ -2312,3 +2312,30 @@ TimeoutError: timed out
 2026-08-26 14:38:05 | INFO     | Google_Sheet.py:83 | Data appended successfully.
 2026-08-26 14:38:05 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
 2026-08-26 14:38:06 | INFO     | Google_Sheet.py:83 | Data appended successfully.
+2026-08-26 19:01:01 | INFO     | service.py:33 | ===== EMAIL SYSTEM STARTED =====
+2026-08-26 19:01:01 | INFO     | service.py:44 | .env file is loaded
+2026-08-26 19:01:01 | INFO     | service.py:51 | Calendar.py Module's main_() is Running
+2026-08-26 19:01:01 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-08-26 19:01:02 | ERROR    | Google_Sheet.py:66 | Google Sheets API error occurred
+Traceback (most recent call last):
+  File "/home/runner/work/email-bot/email-bot/Module/Google_Sheet.py", line 38, in get_data_from_google_sheet
+    ).execute()
+      ^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 503 when requesting https://sheets.googleapis.com/v4/spreadsheets/1l_Nl_Q3sZnOlkCN4-rKRTUA865dJEN9kAU6xqOfWI7s/values/custom_events?alt=json returned "The service is currently unavailable.". Details: "The service is currently unavailable.">
+2026-08-26 19:01:02 | INFO     | service.py:58 | custom events get from google sheet
+2026-08-26 19:01:02 | INFO     | service.py:158 | Todays Festivals is loaded in program.
+2026-08-26 19:01:05 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-08-26 19:01:06 | INFO     | Google_Sheet.py:62 | Data successfully written to data.json
+2026-08-26 19:01:06 | INFO     | task02.py:129 | Fetching Data From Database.
+2026-08-26 19:01:09 | INFO     | task02.py:106 | >> No new joiners since last run
+2026-08-26 19:01:12 | INFO     | task02.py:148 | Nothing to add in Daily-Stats
+2026-08-26 19:01:12 | INFO     | task02.py:165 | Adding to Days Login data and Email Send Data.
+2026-08-26 19:01:12 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-08-26 19:01:12 | INFO     | Google_Sheet.py:83 | Data appended successfully.
+2026-08-26 19:01:12 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-08-26 19:01:13 | INFO     | Google_Sheet.py:83 | Data appended successfully.

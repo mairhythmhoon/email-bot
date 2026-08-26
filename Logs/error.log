@@ -113,3 +113,14 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.15/x64/lib/python3.11/site-packages/httplib2/__init__.py", line 1162, in connect
     sock.connect((self.host, self.port))
 TimeoutError: timed out
+2026-08-26 19:01:02 | ERROR    | Google_Sheet.py:66 | Google Sheets API error occurred
+Traceback (most recent call last):
+  File "/home/runner/work/email-bot/email-bot/Module/Google_Sheet.py", line 38, in get_data_from_google_sheet
+    ).execute()
+      ^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/googleapiclient/_helpers.py", line 130, in positional_wrapper
+    return wrapped(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/googleapiclient/http.py", line 938, in execute
+    raise HttpError(resp, content, uri=self.uri)
+googleapiclient.errors.HttpError: <HttpError 503 when requesting https://sheets.googleapis.com/v4/spreadsheets/1l_Nl_Q3sZnOlkCN4-rKRTUA865dJEN9kAU6xqOfWI7s/values/custom_events?alt=json returned "The service is currently unavailable.". Details: "The service is currently unavailable.">
