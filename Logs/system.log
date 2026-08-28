@@ -2441,3 +2441,21 @@ googleapiclient.errors.HttpError: <HttpError 503 when requesting https://sheets.
 2026-08-28 17:04:44 | INFO     | Google_Sheet.py:83 | Data appended successfully.
 2026-08-28 17:04:44 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
 2026-08-28 17:04:45 | INFO     | Google_Sheet.py:83 | Data appended successfully.
+2026-08-28 17:58:24 | INFO     | service.py:33 | ===== EMAIL SYSTEM STARTED =====
+2026-08-28 17:58:24 | INFO     | service.py:44 | .env file is loaded
+2026-08-28 17:58:24 | INFO     | service.py:51 | Calendar.py Module's main_() is Running
+2026-08-28 17:58:24 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-08-28 17:58:25 | INFO     | Google_Sheet.py:62 | Data successfully written to data.json
+2026-08-28 17:58:25 | INFO     | service.py:58 | custom events get from google sheet
+2026-08-28 17:58:25 | INFO     | service.py:158 | Todays Festivals is loaded in program.
+2026-08-28 17:58:25 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-08-28 17:58:26 | INFO     | Google_Sheet.py:62 | Data successfully written to data.json
+2026-08-28 17:58:26 | INFO     | task01.py:103 | Fetching Data From Database.
+2026-08-28 17:59:12 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-08-28 17:59:13 | INFO     | Google_Sheet.py:83 | Data appended successfully.
+2026-08-28 17:59:13 | INFO     | task01.py:122 | [['28-08-2026 17:59:12', 40, 0, 40, 0]]
+2026-08-28 17:59:13 | INFO     | task01.py:127 | Adding to Days Login data and Email Send Data.
+2026-08-28 17:59:13 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-08-28 17:59:14 | INFO     | Google_Sheet.py:83 | Data appended successfully.
+2026-08-28 17:59:14 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-08-28 17:59:14 | INFO     | Google_Sheet.py:83 | Data appended successfully.
