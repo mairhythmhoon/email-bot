@@ -2596,3 +2596,20 @@ googleapiclient.errors.HttpError: <HttpError 503 when requesting https://sheets.
 2026-08-30 19:22:50 | INFO     | Google_Sheet.py:83 | Data appended successfully.
 2026-08-30 19:22:50 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
 2026-08-30 19:22:51 | INFO     | Google_Sheet.py:83 | Data appended successfully.
+2026-08-31 11:20:23 | INFO     | service.py:33 | ===== EMAIL SYSTEM STARTED =====
+2026-08-31 11:20:23 | INFO     | service.py:44 | .env file is loaded
+2026-08-31 11:20:24 | INFO     | service.py:51 | Calendar.py Module's main_() is Running
+2026-08-31 11:20:24 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-08-31 11:20:25 | INFO     | Google_Sheet.py:62 | Data successfully written to data.json
+2026-08-31 11:20:25 | INFO     | service.py:58 | custom events get from google sheet
+2026-08-31 11:20:25 | INFO     | service.py:158 | Todays Festivals is loaded in program.
+2026-08-31 11:20:28 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-08-31 11:20:29 | INFO     | Google_Sheet.py:62 | Data successfully written to data.json
+2026-08-31 11:20:29 | INFO     | task02.py:129 | Fetching Data From Database.
+2026-08-31 11:20:32 | INFO     | task02.py:106 | >> No new joiners since last run
+2026-08-31 11:20:35 | INFO     | task02.py:148 | Nothing to add in Daily-Stats
+2026-08-31 11:20:35 | INFO     | task02.py:165 | Adding to Days Login data and Email Send Data.
+2026-08-31 11:20:35 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-08-31 11:20:35 | INFO     | Google_Sheet.py:83 | Data appended successfully.
+2026-08-31 11:20:35 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-08-31 11:20:36 | INFO     | Google_Sheet.py:83 | Data appended successfully.
