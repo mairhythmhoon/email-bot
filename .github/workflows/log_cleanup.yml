@@ -59,26 +59,21 @@ jobs:
           echo "log_sender.yml triggered successfully."
           echo "Waiting for new workflow run..."
 
+          RUN_ID=""
+
           for i in {1..30}; do
             RUN_ID=$(gh run list \
               --workflow="log_sender.yml" \
               --repo="${{ github.repository }}" \
               --limit=10 \
               --json databaseId,status,createdAt \
-              --jq --arg before "${BEFORE_RUN:-0}" '
-                [.[] |
-                  select((.databaseId | tostring) != $before)
-                ] |
-                sort_by(.createdAt) |
-                last |
-                .databaseId // empty
-              ')
+              --jq '[.[] | select(.databaseId > '"${BEFORE_RUN:-0}"')] | sort_by(.databaseId) | last | .databaseId // empty')
 
             if [ -n "$RUN_ID" ]; then
               break
             fi
 
-            echo "Waiting for log_sender.yml run to appear..."
+            echo "Waiting for log_sender.yml run to appear... ($i/30)"
             sleep 2
           done
 
@@ -91,15 +86,12 @@ jobs:
           echo "Waiting for log_sender.yml to finish..."
 
           while true; do
-            STATUS=$(gh run view "$RUN_ID" \
+            RUN_INFO=$(gh run view "$RUN_ID" \
               --repo="${{ github.repository }}" \
-              --json status \
-              --jq '.status')
+              --json status,conclusion)
 
-            CONCLUSION=$(gh run view "$RUN_ID" \
-              --repo="${{ github.repository }}" \
-              --json conclusion \
-              --jq '.conclusion')
+            STATUS=$(echo "$RUN_INFO" | jq -r '.status')
+            CONCLUSION=$(echo "$RUN_INFO" | jq -r '.conclusion')
 
             echo "Status: $STATUS"
             echo "Conclusion: $CONCLUSION"
