@@ -179,3 +179,87 @@ googleapiclient.errors.HttpError: <HttpError 503 when requesting https://sheets.
 2026-09-04 10:19:01 | INFO     | Google_Sheet.py:83 | Data appended successfully.
 2026-09-04 10:19:01 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
 2026-09-04 10:19:01 | INFO     | Google_Sheet.py:83 | Data appended successfully.
+2026-09-04 12:51:56 | INFO     | service.py:33 | ===== EMAIL SYSTEM STARTED =====
+2026-09-04 12:51:56 | INFO     | service.py:44 | .env file is loaded
+2026-09-04 12:51:57 | INFO     | service.py:51 | Calendar.py Module's main_() is Running
+2026-09-04 12:51:57 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-09-04 12:51:58 | INFO     | Google_Sheet.py:62 | Data successfully written to data.json
+2026-09-04 12:51:58 | INFO     | service.py:58 | custom events get from google sheet
+2026-09-04 12:51:58 | INFO     | service.py:158 | Todays Festivals is loaded in program.
+2026-09-04 12:51:58 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-09-04 12:51:59 | INFO     | Google_Sheet.py:62 | Data successfully written to data.json
+2026-09-04 12:51:59 | INFO     | task01.py:103 | Fetching Data From Database.
+2026-09-04 12:53:08 | INFO     | task01.py:81 | To Day is More then one Festival.
+2026-09-04 12:53:08 | INFO     | task01.py:83 | main() function runs another time
+2026-09-04 12:54:21 | ERROR    | service.py:115 | ERROR while sending email to shivpithadiya.sp@gmail.com : Connection unexpectedly closed
+Traceback (most recent call last):
+  File "/home/runner/work/email-bot/email-bot/service.py", line 107, in send_email_html
+    smtp.login(EMAIL or "", PASSWORD or "")
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 642, in auth
+    (code, resp) = self.docmd("AUTH", mechanism + " " + response)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 432, in docmd
+    return self.getreply()
+           ^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 405, in getreply
+    raise SMTPServerDisconnected("Connection unexpectedly closed")
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed
+2026-09-04 12:54:22 | ERROR    | service.py:115 | ERROR while sending email to zalavadiyaharvi@gmail.com : Connection unexpectedly closed
+Traceback (most recent call last):
+  File "/home/runner/work/email-bot/email-bot/service.py", line 107, in send_email_html
+    smtp.login(EMAIL or "", PASSWORD or "")
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 642, in auth
+    (code, resp) = self.docmd("AUTH", mechanism + " " + response)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 432, in docmd
+    return self.getreply()
+           ^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 405, in getreply
+    raise SMTPServerDisconnected("Connection unexpectedly closed")
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed
+2026-09-04 12:54:22 | ERROR    | service.py:115 | ERROR while sending email to karenadivya3@gmail.com : Connection unexpectedly closed
+Traceback (most recent call last):
+  File "/home/runner/work/email-bot/email-bot/service.py", line 107, in send_email_html
+    smtp.login(EMAIL or "", PASSWORD or "")
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 642, in auth
+    (code, resp) = self.docmd("AUTH", mechanism + " " + response)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 432, in docmd
+    return self.getreply()
+           ^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 405, in getreply
+    raise SMTPServerDisconnected("Connection unexpectedly closed")
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed
+2026-09-04 12:54:22 | ERROR    | service.py:115 | ERROR while sending email to mairhythmhoon@gmail.com : Connection unexpectedly closed
+Traceback (most recent call last):
+  File "/home/runner/work/email-bot/email-bot/service.py", line 107, in send_email_html
+    smtp.login(EMAIL or "", PASSWORD or "")
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 642, in auth
+    (code, resp) = self.docmd("AUTH", mechanism + " " + response)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 432, in docmd
+    return self.getreply()
+           ^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 405, in getreply
+    raise SMTPServerDisconnected("Connection unexpectedly closed")
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed
+2026-09-04 12:54:22 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-09-04 12:54:22 | INFO     | Google_Sheet.py:83 | Data appended successfully.
+2026-09-04 12:54:22 | INFO     | task01.py:122 | [['04-09-2026 12:54:22', 80, 0, 80, 4]]
+2026-09-04 12:54:22 | INFO     | task01.py:127 | Adding to Days Login data and Email Send Data.
+2026-09-04 12:54:23 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-09-04 12:54:24 | INFO     | Google_Sheet.py:83 | Data appended successfully.
+2026-09-04 12:54:24 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-09-04 12:54:24 | INFO     | Google_Sheet.py:83 | Data appended successfully.

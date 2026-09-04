@@ -24,3 +24,67 @@ Traceback (most recent call last):
   File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/googleapiclient/http.py", line 1018, in execute
     raise HttpError(resp, content, uri=self.uri)
 googleapiclient.errors.HttpError: <HttpError 503 when requesting https://sheets.googleapis.com/v4/spreadsheets/1l_Nl_Q3sZnOlkCN4-rKRTUA865dJEN9kAU6xqOfWI7s/values/custom_events?alt=json returned "The service is currently unavailable.". Details: "The service is currently unavailable.">
+2026-09-04 12:54:21 | ERROR    | service.py:115 | ERROR while sending email to shivpithadiya.sp@gmail.com : Connection unexpectedly closed
+Traceback (most recent call last):
+  File "/home/runner/work/email-bot/email-bot/service.py", line 107, in send_email_html
+    smtp.login(EMAIL or "", PASSWORD or "")
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 642, in auth
+    (code, resp) = self.docmd("AUTH", mechanism + " " + response)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 432, in docmd
+    return self.getreply()
+           ^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 405, in getreply
+    raise SMTPServerDisconnected("Connection unexpectedly closed")
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed
+2026-09-04 12:54:22 | ERROR    | service.py:115 | ERROR while sending email to zalavadiyaharvi@gmail.com : Connection unexpectedly closed
+Traceback (most recent call last):
+  File "/home/runner/work/email-bot/email-bot/service.py", line 107, in send_email_html
+    smtp.login(EMAIL or "", PASSWORD or "")
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 642, in auth
+    (code, resp) = self.docmd("AUTH", mechanism + " " + response)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 432, in docmd
+    return self.getreply()
+           ^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 405, in getreply
+    raise SMTPServerDisconnected("Connection unexpectedly closed")
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed
+2026-09-04 12:54:22 | ERROR    | service.py:115 | ERROR while sending email to karenadivya3@gmail.com : Connection unexpectedly closed
+Traceback (most recent call last):
+  File "/home/runner/work/email-bot/email-bot/service.py", line 107, in send_email_html
+    smtp.login(EMAIL or "", PASSWORD or "")
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 642, in auth
+    (code, resp) = self.docmd("AUTH", mechanism + " " + response)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 432, in docmd
+    return self.getreply()
+           ^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 405, in getreply
+    raise SMTPServerDisconnected("Connection unexpectedly closed")
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed
+2026-09-04 12:54:22 | ERROR    | service.py:115 | ERROR while sending email to mairhythmhoon@gmail.com : Connection unexpectedly closed
+Traceback (most recent call last):
+  File "/home/runner/work/email-bot/email-bot/service.py", line 107, in send_email_html
+    smtp.login(EMAIL or "", PASSWORD or "")
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 739, in login
+    (code, resp) = self.auth(
+                   ^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 642, in auth
+    (code, resp) = self.docmd("AUTH", mechanism + " " + response)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 432, in docmd
+    return self.getreply()
+           ^^^^^^^^^^^^^^^
+  File "/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/smtplib.py", line 405, in getreply
+    raise SMTPServerDisconnected("Connection unexpectedly closed")
+smtplib.SMTPServerDisconnected: Connection unexpectedly closed
