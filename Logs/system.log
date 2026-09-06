@@ -384,3 +384,20 @@ smtplib.SMTPServerDisconnected: Connection unexpectedly closed
 2026-09-06 10:23:24 | INFO     | Google_Sheet.py:83 | Data appended successfully.
 2026-09-06 10:23:24 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
 2026-09-06 10:23:24 | INFO     | Google_Sheet.py:83 | Data appended successfully.
+2026-09-06 12:45:12 | INFO     | service.py:33 | ===== EMAIL SYSTEM STARTED =====
+2026-09-06 12:45:12 | INFO     | service.py:44 | .env file is loaded
+2026-09-06 12:45:12 | INFO     | service.py:51 | Calendar.py Module's main_() is Running
+2026-09-06 12:45:12 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-09-06 12:45:14 | INFO     | Google_Sheet.py:62 | Data successfully written to data.json
+2026-09-06 12:45:14 | INFO     | service.py:58 | custom events get from google sheet
+2026-09-06 12:45:14 | INFO     | service.py:158 | Todays Festivals is loaded in program.
+2026-09-06 12:45:14 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-09-06 12:45:14 | INFO     | Google_Sheet.py:62 | Data successfully written to data.json
+2026-09-06 12:45:14 | INFO     | task01.py:103 | Fetching Data From Database.
+2026-09-06 12:45:14 | INFO     | task01.py:70 | >> No Birthdays today	>> No festivals today
+2026-09-06 12:45:14 | INFO     | task01.py:116 | Nothing to add in Daily-Stats
+2026-09-06 12:45:14 | INFO     | task01.py:127 | Adding to Days Login data and Email Send Data.
+2026-09-06 12:45:14 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-09-06 12:45:15 | INFO     | Google_Sheet.py:83 | Data appended successfully.
+2026-09-06 12:45:15 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-09-06 12:45:15 | INFO     | Google_Sheet.py:83 | Data appended successfully.
