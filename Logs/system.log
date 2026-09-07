@@ -452,3 +452,22 @@ smtplib.SMTPServerDisconnected: Connection unexpectedly closed
 2026-09-07 10:28:57 | INFO     | Google_Sheet.py:83 | Data appended successfully.
 2026-09-07 10:28:57 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
 2026-09-07 10:28:57 | INFO     | Google_Sheet.py:83 | Data appended successfully.
+2026-09-07 12:58:48 | INFO     | service.py:33 | ===== EMAIL SYSTEM STARTED =====
+2026-09-07 12:58:48 | INFO     | service.py:44 | .env file is loaded
+2026-09-07 12:58:48 | INFO     | service.py:51 | Calendar.py Module's main_() is Running
+2026-09-07 12:58:48 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-09-07 12:58:49 | INFO     | Google_Sheet.py:62 | Data successfully written to data.json
+2026-09-07 12:58:49 | INFO     | service.py:58 | custom events get from google sheet
+2026-09-07 12:58:49 | INFO     | service.py:158 | Todays Festivals is loaded in program.
+2026-09-07 12:58:49 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-09-07 12:58:50 | INFO     | Google_Sheet.py:62 | Data successfully written to data.json
+2026-09-07 12:58:50 | INFO     | task01.py:103 | Fetching Data From Database.
+2026-09-07 12:58:51 | INFO     | task01.py:70 | >> No Birthdays today	>> No festivals today
+2026-09-07 12:58:51 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-09-07 12:58:52 | INFO     | Google_Sheet.py:83 | Data appended successfully.
+2026-09-07 12:58:52 | INFO     | task01.py:122 | [['07-09-2026 12:58:51', 1, 1, 0, 0]]
+2026-09-07 12:58:52 | INFO     | task01.py:127 | Adding to Days Login data and Email Send Data.
+2026-09-07 12:58:52 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-09-07 12:58:53 | INFO     | Google_Sheet.py:83 | Data appended successfully.
+2026-09-07 12:58:53 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-09-07 12:58:53 | INFO     | Google_Sheet.py:83 | Data appended successfully.
