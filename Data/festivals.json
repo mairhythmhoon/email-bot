@@ -77,7 +77,7 @@
     {
         "date": "19-03-2026",
         "festival_name": "Cheti Chand",
-        "calendar": "merged"
+        "calendar": "Hindu"
     },
     {
         "date": "20-03-2026",
@@ -111,27 +111,17 @@
     },
     {
         "date": "14-04-2026",
-        "festival_name": "Ambedkar Jayanti",
-        "calendar": "Indian"
-    },
-    {
-        "date": "14-04-2026",
-        "festival_name": "Vishu",
-        "calendar": "Indian"
-    },
-    {
-        "date": "14-04-2026",
         "festival_name": "Mesadi",
         "calendar": "Indian"
     },
     {
-        "date": "15-04-2026",
-        "festival_name": "Bahag Bihu (Assam)",
+        "date": "14-04-2026",
+        "festival_name": "Ambedkar Jayanti",
         "calendar": "Indian"
     },
     {
         "date": "15-04-2026",
-        "festival_name": "Vaisakhadi (Bengal)",
+        "festival_name": "Bahag Bihu",
         "calendar": "Indian"
     },
     {
@@ -162,11 +152,6 @@
     {
         "date": "15-08-2026",
         "festival_name": "Independence Day",
-        "calendar": "Indian"
-    },
-    {
-        "date": "15-08-2026",
-        "festival_name": "Parsi New Year",
         "calendar": "Indian"
     },
     {
