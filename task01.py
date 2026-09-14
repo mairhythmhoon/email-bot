@@ -83,6 +83,12 @@ def main():
             service.logger.info("main() function runs another time")
             main()
             exit()  
+        if len(service.custom_events_list)>1:
+            service.logger.info("TO Day is More then one Coustom Events.")
+            del service.custom_events_list[0]
+            service.logger.info("main() function runs another time")
+            main()
+            exit()
         else:
             pass
         
