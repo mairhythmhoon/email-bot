@@ -882,3 +882,23 @@ smtplib.SMTPServerDisconnected: Connection unexpectedly closed
 2026-09-15 10:35:15 | INFO     | Google_Sheet.py:83 | Data appended successfully.
 2026-09-15 10:35:15 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
 2026-09-15 10:35:15 | INFO     | Google_Sheet.py:83 | Data appended successfully.
+2026-09-15 13:28:04 | INFO     | service.py:33 | ===== EMAIL SYSTEM STARTED =====
+2026-09-15 13:28:04 | INFO     | service.py:44 | .env file is loaded
+2026-09-15 13:28:05 | INFO     | service.py:51 | Calendar.py Module's main_() is Running
+2026-09-15 13:28:05 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-09-15 13:28:06 | INFO     | Google_Sheet.py:62 | Data successfully written to data.json
+2026-09-15 13:28:06 | INFO     | service.py:58 | custom events get from google sheet
+2026-09-15 13:28:06 | INFO     | service.py:158 | Todays Festivals is loaded in program.
+2026-09-15 13:28:06 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-09-15 13:28:06 | INFO     | Google_Sheet.py:62 | Data successfully written to data.json
+2026-09-15 13:28:06 | INFO     | task01.py:109 | Fetching Data From Database.
+2026-09-15 13:29:08 | INFO     | task01.py:87 | TO Day is More then one Coustom Events.
+2026-09-15 13:29:08 | INFO     | task01.py:89 | main() function runs another time
+2026-09-15 13:30:04 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-09-15 13:30:05 | INFO     | Google_Sheet.py:83 | Data appended successfully.
+2026-09-15 13:30:05 | INFO     | task01.py:128 | [['15-09-2026 13:30:04', 80, 0, 80, 0]]
+2026-09-15 13:30:05 | INFO     | task01.py:133 | Adding to Days Login data and Email Send Data.
+2026-09-15 13:30:05 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-09-15 13:30:05 | INFO     | Google_Sheet.py:83 | Data appended successfully.
+2026-09-15 13:30:05 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-09-15 13:30:06 | INFO     | Google_Sheet.py:83 | Data appended successfully.
