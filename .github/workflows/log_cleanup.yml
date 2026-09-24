@@ -5,7 +5,7 @@ name: Monthly Log Cleanup
 on:
   # Runs on 1st day of every month at 6:00 AM IST
   schedule:
-    - cron: "30 0 1 * *"
+    - cron: "00 0 1 * *"
 
   # Manual trigger from GitHub Actions tab
   workflow_dispatch:
