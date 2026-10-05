@@ -16,7 +16,6 @@ def mask_text(text, visible_start=2, visible_end=2):
         + text[-visible_end:]
     )
 
-
 def mask_email(email):
     if not email or "@" not in email:
         return mask_text(email)
