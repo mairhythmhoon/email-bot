@@ -490,3 +490,22 @@ Cleanup Time: 01-10-2026 08:21:04 AM IST
 2026-10-10 11:35:53 | INFO     | Google_Sheet.py:83 | Data appended successfully.
 2026-10-10 11:35:53 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
 2026-10-10 11:35:54 | INFO     | Google_Sheet.py:83 | Data appended successfully.
+2026-10-10 14:19:22 | INFO     | service.py:33 | ===== EMAIL SYSTEM STARTED =====
+2026-10-10 14:19:22 | INFO     | service.py:44 | .env file is loaded
+2026-10-10 14:19:22 | INFO     | service.py:51 | Calendar.py Module's main_() is Running
+2026-10-10 14:19:22 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-10-10 14:19:23 | INFO     | Google_Sheet.py:62 | Data successfully written to data.json
+2026-10-10 14:19:23 | INFO     | service.py:58 | custom events get from google sheet
+2026-10-10 14:19:23 | INFO     | service.py:158 | Todays Festivals is loaded in program.
+2026-10-10 14:19:24 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-10-10 14:19:24 | INFO     | Google_Sheet.py:62 | Data successfully written to data.json
+2026-10-10 14:19:24 | INFO     | task01.py:109 | Fetching Data From Database.
+2026-10-10 14:19:25 | INFO     | task01.py:70 | >> No Birthdays today	>> No festivals today
+2026-10-10 14:19:25 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-10-10 14:19:26 | INFO     | Google_Sheet.py:83 | Data appended successfully.
+2026-10-10 14:19:26 | INFO     | task01.py:128 | [['10-10-2026 14:19:25', 1, 1, 0, 0]]
+2026-10-10 14:19:26 | INFO     | task01.py:133 | Adding to Days Login data and Email Send Data.
+2026-10-10 14:19:26 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-10-10 14:19:27 | INFO     | Google_Sheet.py:83 | Data appended successfully.
+2026-10-10 14:19:27 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-10-10 14:19:28 | INFO     | Google_Sheet.py:83 | Data appended successfully.
