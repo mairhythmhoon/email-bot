@@ -14,7 +14,6 @@ from pathlib import Path
 from email.message import EmailMessage
 from Module import get_data_from_google_sheet,append_to_sheet 
 from Module import main_
-from Module import birthday_filter,festival_filter
 from Module import setup_logger
 
 BASE_DIR = Path(__file__).resolve().parent
