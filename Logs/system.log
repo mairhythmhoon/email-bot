@@ -132,3 +132,20 @@ Cleanup Time: 01-11-2026 08:26:08 AM IST
 2026-11-03 12:31:59 | INFO     | Google_Sheet.py:83 | Data appended successfully.
 2026-11-03 12:32:00 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
 2026-11-03 12:32:00 | INFO     | Google_Sheet.py:83 | Data appended successfully.
+2026-11-03 15:23:24 | INFO     | service.py:32 | ===== EMAIL SYSTEM STARTED =====
+2026-11-03 15:23:24 | INFO     | service.py:43 | .env file is loaded
+2026-11-03 15:23:25 | INFO     | service.py:50 | Calendar.py Module's main_() is Running
+2026-11-03 15:23:25 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-11-03 15:23:28 | INFO     | Google_Sheet.py:62 | Data successfully written to data.json
+2026-11-03 15:23:28 | INFO     | service.py:57 | custom events get from google sheet
+2026-11-03 15:23:28 | INFO     | service.py:157 | Todays Festivals is loaded in program.
+2026-11-03 15:23:28 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-11-03 15:23:29 | INFO     | Google_Sheet.py:62 | Data successfully written to data.json
+2026-11-03 15:23:29 | INFO     | task01.py:109 | Fetching Data From Database.
+2026-11-03 15:23:29 | INFO     | task01.py:70 | >> No Birthdays today	>> No festivals today
+2026-11-03 15:23:29 | INFO     | task01.py:122 | Nothing to add in Daily-Stats
+2026-11-03 15:23:29 | INFO     | task01.py:133 | Adding to Days Login data and Email Send Data.
+2026-11-03 15:23:29 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-11-03 15:23:30 | INFO     | Google_Sheet.py:83 | Data appended successfully.
+2026-11-03 15:23:30 | INFO     | __init__.py:49 | file_cache is only supported with oauth2client<4.0.0
+2026-11-03 15:23:31 | INFO     | Google_Sheet.py:83 | Data appended successfully.
